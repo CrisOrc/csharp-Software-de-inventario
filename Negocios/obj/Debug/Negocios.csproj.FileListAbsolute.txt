@@ -1,0 +1,33 @@
+C:\Users\cread\source\repos\crud\Negocios\bin\Debug\Negocios.dll
+C:\Users\cread\source\repos\crud\Negocios\bin\Debug\Negocios.pdb
+C:\Users\cread\source\repos\crud\Negocios\bin\Debug\Datos.dll
+C:\Users\cread\source\repos\crud\Negocios\bin\Debug\Datos.pdb
+C:\Users\cread\source\repos\crud\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\cread\source\repos\crud\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\cread\source\repos\crud\Negocios\obj\Debug\Negocios.csproj.Up2Date
+C:\Users\cread\source\repos\crud\Negocios\obj\Debug\Negocios.dll
+C:\Users\cread\source\repos\crud\Negocios\obj\Debug\Negocios.pdb
+C:\Users\cread\source\repos\crud\Negocios\bin\Debug\System.Data.SqlClient.dll
+C:\Users\cread\source\repos\crud\Negocios\bin\Debug\System.Data.SqlClient.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\bin\Debug\Negocios.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\bin\Debug\Negocios.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\bin\Debug\Datos.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\bin\Debug\System.Data.SqlClient.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\bin\Debug\Datos.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\bin\Debug\System.Data.SqlClient.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\obj\Debug\Negocios.csproj.Up2Date
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\obj\Debug\Negocios.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Negocios\obj\Debug\Negocios.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\Negocios.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\Negocios.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Data.SqlClient.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Data.SqlClient.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.Up2Date
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.pdb

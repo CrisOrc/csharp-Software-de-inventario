@@ -1,0 +1,27 @@
+C:\Users\cread\source\repos\crud\Datos\bin\Debug\Datos.dll
+C:\Users\cread\source\repos\crud\Datos\bin\Debug\Datos.pdb
+C:\Users\cread\source\repos\crud\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\cread\source\repos\crud\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\cread\source\repos\crud\Datos\obj\Debug\Datos.dll
+C:\Users\cread\source\repos\crud\Datos\obj\Debug\Datos.pdb
+C:\Users\cread\source\repos\crud\Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\cread\source\repos\crud\Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\cread\source\repos\crud\Datos\obj\Debug\Datos.csproj.Up2Date
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\bin\Debug\Datos.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\bin\Debug\Datos.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\bin\Debug\System.Data.SqlClient.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\bin\Debug\System.Data.SqlClient.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\obj\Debug\Datos.csproj.Up2Date
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\obj\Debug\Datos.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\Datos\obj\Debug\Datos.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\bin\Debug\Datos.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\bin\Debug\Datos.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\bin\Debug\System.Data.SqlClient.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\bin\Debug\System.Data.SqlClient.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.Up2Date
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.pdb

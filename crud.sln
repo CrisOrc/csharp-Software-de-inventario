@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion", "crud\Presentacion.csproj", "{D98860DA-815D-4EA7-9D85-FE5250154D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocios", "Negocios\Negocios.csproj", "{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{1363EACC-9004-4DD1-874E-402DF5613046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98860DA-815D-4EA7-9D85-FE5250154D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98860DA-815D-4EA7-9D85-FE5250154D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98860DA-815D-4EA7-9D85-FE5250154D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98860DA-815D-4EA7-9D85-FE5250154D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1363EACC-9004-4DD1-874E-402DF5613046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1363EACC-9004-4DD1-874E-402DF5613046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1363EACC-9004-4DD1-874E-402DF5613046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1363EACC-9004-4DD1-874E-402DF5613046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B71661ED-AA32-4226-AA59-905BEDBB55C1}
+	EndGlobalSection
+EndGlobal
