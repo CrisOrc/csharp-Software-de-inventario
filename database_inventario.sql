@@ -1,6 +1,7 @@
-create database inventario
-go
-use inventario
+CREATE DATABASE inventario;
+GO
+USE inventario;
+GO
 
 CREATE TABLE UsuariosSistema (
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -8,20 +9,19 @@ CREATE TABLE UsuariosSistema (
     Email NVARCHAR(100) NOT NULL UNIQUE,
     PasswordHash NVARCHAR(255) NOT NULL,
     Rol NVARCHAR(50) NOT NULL
-)
+);
 
 CREATE TABLE Clientes (
     Id INT IDENTITY(1,1) PRIMARY KEY,
-    UsuarioId INT FOREIGN KEY REFERENCES UsuariosSistema(Id),
     Nombre NVARCHAR(100) NOT NULL,
     Email NVARCHAR(100) UNIQUE,
     Telefono NVARCHAR(15)
-)
+);
 
 CREATE TABLE Categorias (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Nombre NVARCHAR(100) NOT NULL
-)
+);
 
 CREATE TABLE Productos (
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -31,31 +31,31 @@ CREATE TABLE Productos (
     Precio FLOAT,
     Stock INT,
     CategoriaId INT FOREIGN KEY REFERENCES Categorias(Id)
-)
-/**insert into Productos 
-values
-('Gaseosa','3 litros','marcacola',7.5,24),
-('Chocolate','Tableta 100 gramos','iberica',12.5,36)
+);
 
 CREATE TABLE MediosPago (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Metodo NVARCHAR(100) NOT NULL
-)**/
+);
 
 CREATE TABLE Facturas (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     ClienteId INT FOREIGN KEY REFERENCES Clientes(Id),
     Fecha DATETIME DEFAULT GETDATE(),
     Total FLOAT,
-    MedioPagoId INT FOREIGN KEY REFERENCES MediosPago(Id)
-)
+    MedioPagoId INT FOREIGN KEY REFERENCES MediosPago(Id),
+	FacturadorId INT FOREIGN KEY REFERENCES UsuariosSistema(Id)
+);
 
 CREATE TABLE FacturasProductos (
     FacturaId INT FOREIGN KEY REFERENCES Facturas(Id),
     ProductoId INT FOREIGN KEY REFERENCES Productos(Id),
     Cantidad INT NOT NULL,
+    Precio FLOAT NOT NULL, 
+    PrecioTotal AS (Cantidad * Precio) PERSISTED,
     PRIMARY KEY (FacturaId, ProductoId)
-)
+);
+
 
 
 ---PROCEDIMIENTOS ALMACENADOS 
