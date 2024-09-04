@@ -1,24 +1,61 @@
 using Negocios;
+using Presentacion.Logic;
+using Presentacion.Vistas;
 
 namespace crud
 {
     public partial class frmMain : Form
     {
-        private conProducto Producto = new conProducto();
+        /*private conProducto Producto = new conProducto();
         private string idProducto = null;
-        private bool Editar = false;
+        private bool Editar = false;*/
+
+        UsePanel panel = null;
 
         public frmMain()
         {
             InitializeComponent();
+            panel = new UsePanel(pnlVistas);
+        }
+
+        private void msiInicio_Click(object sender, EventArgs e)
+        {
+            panel.CloseChildForm();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MostrarProductos();
+            //MostrarProductos();
         }
 
-        private void MostrarProductos()
+        private void msiGestionProductos_Click(object sender, EventArgs e)
+        {
+            panel.OpenChildForm(new frmProductos());
+        }
+
+        private void msiCategoriaProductos_Click(object sender, EventArgs e)
+        {
+            panel.OpenChildForm(new frmCategoriaProductos());
+        }
+
+        private void msiUsuarios_Click(object sender, EventArgs e)
+        {
+            panel.OpenChildForm(new frmUsuarios());
+        }
+
+        private void msiClientes_Click(object sender, EventArgs e)
+        {
+            panel.OpenChildForm(new frmClientes());
+        }
+
+        private void mediosDePagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel.OpenChildForm(new frmMediosPago());
+        }
+
+
+
+        /*private void MostrarProductos()
         {
             conProducto objeto = new conProducto();
             dataGridView1.DataSource = objeto.MostrarProd();
@@ -120,6 +157,6 @@ namespace crud
         private void button4_Click(object sender, EventArgs e)
         {
             txtResult.Text = Convert.ToString(Producto.Contar());
-        }
+        }*/
     }
 }

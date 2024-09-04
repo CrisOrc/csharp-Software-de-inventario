@@ -25,3 +25,12 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\o
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.Up2Date
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.pdb
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\bin\Debug\Datos.dll
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\bin\Debug\Datos.pdb
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\bin\Debug\System.Data.SqlClient.dll
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\bin\Debug\System.Data.SqlClient.xml
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.csproj.Up2Date
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.dll
+D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Datos\obj\Debug\Datos.pdb
