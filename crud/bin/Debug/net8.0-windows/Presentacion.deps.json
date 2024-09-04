@@ -92,10 +92,7 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "Datos/1.0.0": {
         "runtime": {
-          "Datos.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Datos.dll": {}
         }
       },
       "Negocios/1.0.0": {
@@ -103,10 +100,7 @@
           "Datos": "1.0.0"
         },
         "runtime": {
-          "Negocios.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Negocios.dll": {}
         }
       }
     }
