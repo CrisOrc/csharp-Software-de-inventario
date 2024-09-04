@@ -12,6 +12,6 @@ namespace Negocios
     public class conCategoria
     {
         private modCategoria Productos = new modCategoria();
-       
+
     }
 }

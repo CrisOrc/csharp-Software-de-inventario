@@ -3,51 +3,51 @@
   "WorkspaceRootPath": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\negocios\\concliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\concliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\conproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\conproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\negocios\\concategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\concategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\negocios\\confactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\confactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\negocios\\conusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\conusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\conusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\negocios\\conmediopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\conmediopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\conmediopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\conproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\conproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\datos\\modproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\datos\\modcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\datos\\modcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\datos\\modfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\datos\\modfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\datos\\modusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\datos\\modusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|d:\\002_pascual\\005_semestre\\herramientas 3\\csharp-software-de-inventario\\datos\\modmediopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\concliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\concliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\concategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\concategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\negocios\\confactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\confactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\datos\\modcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\datos\\modcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\datos\\modmediopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modmediopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,37 +58,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "conCliente.cs",
-              "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conCliente.cs",
-              "RelativeDocumentMoniker": "Negocios\\conCliente.cs",
-              "ToolTip": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conCliente.cs",
-              "RelativeToolTip": "Negocios\\conCliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:27:36.972Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "conFactura.cs",
-              "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conFactura.cs",
-              "RelativeDocumentMoniker": "Negocios\\conFactura.cs",
-              "ToolTip": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conFactura.cs",
-              "RelativeToolTip": "Negocios\\conFactura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:26:21.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "conMedioPago.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conMedioPago.cs",
               "RelativeDocumentMoniker": "Negocios\\conMedioPago.cs",
@@ -101,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "conUsuarios.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conUsuarios.cs",
               "RelativeDocumentMoniker": "Negocios\\conUsuarios.cs",
@@ -114,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "conCategoria.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conCategoria.cs",
               "RelativeDocumentMoniker": "Negocios\\conCategoria.cs",
@@ -122,12 +100,11 @@
               "RelativeToolTip": "Negocios\\conCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:21:34.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:21:34.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "modFactura.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Datos\\modFactura.cs",
               "RelativeDocumentMoniker": "Datos\\modFactura.cs",
@@ -135,12 +112,11 @@
               "RelativeToolTip": "Datos\\modFactura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:18:43.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:18:43.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "modCliente.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Datos\\modCliente.cs",
               "RelativeDocumentMoniker": "Datos\\modCliente.cs",
@@ -148,8 +124,7 @@
               "RelativeToolTip": "Datos\\modCliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:17:57.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:17:57.273Z"
             },
             {
               "$type": "Document",
@@ -161,12 +136,11 @@
               "RelativeToolTip": "Datos\\modMedioPago.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:16:01.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:16:01.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "modUsuarios.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Datos\\modUsuarios.cs",
               "RelativeDocumentMoniker": "Datos\\modUsuarios.cs",
@@ -174,12 +148,11 @@
               "RelativeToolTip": "Datos\\modUsuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:14:37.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:14:37.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "modProductos.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Datos\\modProductos.cs",
               "RelativeDocumentMoniker": "Datos\\modProductos.cs",
@@ -192,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "conProducto.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conProducto.cs",
               "RelativeDocumentMoniker": "Negocios\\conProducto.cs",
@@ -205,7 +178,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "conCliente.cs",
+              "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conCliente.cs",
+              "RelativeDocumentMoniker": "Negocios\\conCliente.cs",
+              "ToolTip": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conCliente.cs",
+              "RelativeToolTip": "Negocios\\conCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:27:36.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "conFactura.cs",
+              "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conFactura.cs",
+              "RelativeDocumentMoniker": "Negocios\\conFactura.cs",
+              "ToolTip": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\conFactura.cs",
+              "RelativeToolTip": "Negocios\\conFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:26:21.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "modCategoria.cs",
               "DocumentMoniker": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Datos\\modCategoria.cs",
               "RelativeDocumentMoniker": "Datos\\modCategoria.cs",
@@ -213,8 +210,7 @@
               "RelativeToolTip": "Datos\\modCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:10:28.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:10:28.662Z"
             }
           ]
         }

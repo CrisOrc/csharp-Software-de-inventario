@@ -16,5 +16,48 @@ namespace Datos
 
         DataTable tabla = new DataTable();
         SqlCommand comando = new SqlCommand();
+
+        public DataTable Mostrar_Categoria()
+        {
+
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "select * from Categoria";
+            buffer = comando.ExecuteReader();
+            tabla.Load(buffer);
+            conexion.CerrarConexion();
+            return tabla;
+
+        }
+        public void Insertar_Categoria(string nombre, int id)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "insert into Categoria values (@nombre,@i)";
+            comando.Parameters.AddWithValue("@nombre", nombre);
+            comando.Parameters.AddWithValue("@id", id);
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+            conexion.CerrarConexion();
+        }
+        public void Editar_Categoria(string nombre, int id)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "update Categoria set Nombre=@nombre, Id=@id";
+            comando.CommandType = CommandType.Text;
+            comando.Parameters.AddWithValue("@nombre", nombre);
+            comando.Parameters.AddWithValue("@id", id);
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+            conexion.CerrarConexion();
+        }
+        public void Eliminar_Categoria(int idpro)
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "delete from Categoria where Id=@idpro";
+            comando.CommandType = CommandType.Text;
+            comando.Parameters.AddWithValue("@idpro", idpro);
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+            conexion.CerrarConexion();
+        }
     }
 }
