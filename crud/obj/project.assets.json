@@ -502,19 +502,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sebas\\.nuget\\packages\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
+      "projectUniqueName": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
-      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\obj\\",
+      "projectPath": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\crud\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -528,8 +533,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj": {
-              "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj"
+            "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj": {
+              "projectPath": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj"
             }
           }
         }
@@ -573,7 +578,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
