@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\",
+  "WorkspaceRootPath": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|d:\\sebasl\\university\\2024-2\\hdep3\\pruebas\\copia-app-inventario\\csharp-software-de-inventario\\crud\\vistas\\frmmediospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|solutionrelative:crud\\vistas\\frmmediospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\santi\\csharp-software-de-inventario\\datos\\modusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\vistas\\frmmediospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|solutionrelative:crud\\vistas\\frmmediospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\santi\\csharp-software-de-inventario\\datos\\modfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|solutionrelative:crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98860DA-815D-4EA7-9D85-FE5250154D66}|crud\\Presentacion.csproj|solutionrelative:crud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\santi\\csharp-software-de-inventario\\datos\\modproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMediosPago.cs",
-              "DocumentMoniker": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Vistas\\frmMediosPago.cs",
-              "RelativeDocumentMoniker": "crud\\Vistas\\frmMediosPago.cs",
-              "ToolTip": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Vistas\\frmMediosPago.cs",
-              "RelativeToolTip": "crud\\Vistas\\frmMediosPago.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAcwEQAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "modFactura.cs",
+              "DocumentMoniker": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\Datos\\modFactura.cs",
+              "RelativeDocumentMoniker": "Datos\\modFactura.cs",
+              "ToolTip": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\Datos\\modFactura.cs",
+              "RelativeToolTip": "Datos\\modFactura.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwD4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T00:58:04.875Z",
+              "WhenOpened": "2024-09-09T22:44:19.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMediosPago.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Vistas\\frmMediosPago.cs",
-              "RelativeDocumentMoniker": "crud\\Vistas\\frmMediosPago.cs",
-              "ToolTip": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Vistas\\frmMediosPago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\csharp-Software-de-inventario\\crud\\Vistas\\frmMediosPago.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "modUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\Datos\\modUsuarios.cs",
+              "RelativeDocumentMoniker": "Datos\\modUsuarios.cs",
+              "ToolTip": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\Datos\\modUsuarios.cs",
+              "RelativeToolTip": "Datos\\modUsuarios.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowFkAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T00:59:33.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Form1.cs",
-              "RelativeDocumentMoniker": "crud\\Form1.cs",
-              "ToolTip": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Form1.cs",
-              "RelativeToolTip": "crud\\Form1.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAWwDQAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T20:58:04.596Z"
+              "WhenOpened": "2024-09-09T22:15:31.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\sebasl\\university\\2024-2\\HdeP3\\pruebas\\copia-app-inventario\\csharp-Software-de-inventario\\crud\\Form1.cs",
-              "RelativeDocumentMoniker": "crud\\Form1.cs",
-              "ToolTip": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\csharp-Software-de-inventario\\crud\\Form1.cs [Dise\u00F1o]",
+              "Title": "modProductos.cs",
+              "DocumentMoniker": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\Datos\\modProductos.cs",
+              "RelativeDocumentMoniker": "Datos\\modProductos.cs",
+              "ToolTip": "C:\\Users\\SANTI\\csharp-Software-de-inventario\\Datos\\modProductos.cs",
+              "RelativeToolTip": "Datos\\modProductos.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T00:31:08.429Z"
+              "WhenOpened": "2024-09-09T22:15:20.425Z",
+              "EditorCaption": ""
             }
           ]
         }
