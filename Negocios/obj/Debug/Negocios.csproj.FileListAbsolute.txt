@@ -31,14 +31,3 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocio
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.Up2Date
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\bin\Debug\Negocios.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\bin\Debug\Negocios.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Data.SqlClient.xml
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.Up2Date
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.pdb
