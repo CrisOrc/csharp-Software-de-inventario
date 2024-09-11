@@ -7,9 +7,13 @@ namespace crud
         private conProducto Producto = new conProducto();
         private string idProducto = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private bool Editar = false;*/
 
         //UsePanel panel = null;
+=======
+        private bool Editar = false;
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 =======
         private bool Editar = false;
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
@@ -17,6 +21,7 @@ namespace crud
         public frmMain()
         {
             InitializeComponent();
+<<<<<<< HEAD
 <<<<<<< HEAD
             //panel = new UsePanel(pnlVistas);
         }
@@ -62,6 +67,8 @@ namespace crud
             //panel.CloseChildForm();
 =======
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
+=======
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -69,6 +76,7 @@ namespace crud
             MostrarProductos();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         private void msiGestionProductos_Click(object sender, EventArgs e)
         {
@@ -98,6 +106,9 @@ namespace crud
 
 
         /*private void MostrarProductos()
+=======
+        private void MostrarProductos()
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 =======
         private void MostrarProductos()
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d

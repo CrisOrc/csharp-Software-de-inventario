@@ -13,7 +13,10 @@ namespace Negocios
     {
         private modUsuarios Usuarios = new modUsuarios();
         SqlCommand comando = new SqlCommand();
+<<<<<<< HEAD
         private Conexion conexion = new Conexion();
+=======
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 
         public DataTable MostrarProd()
         {

@@ -84,6 +84,7 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\ob
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
@@ -161,3 +162,5 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\ob
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
+=======
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d

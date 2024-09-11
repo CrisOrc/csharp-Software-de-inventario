@@ -56,7 +56,11 @@ namespace Negocios
             conexion.CerrarConexion();
         }
 
+<<<<<<< HEAD
         
+=======
+        }
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 
 
     }
