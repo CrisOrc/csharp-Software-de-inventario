@@ -17,12 +17,12 @@ namespace Negocios
         public DataTable MostrarMediosPago()
         {
             DataTable tabla = new DataTable();
-            tabla = MedioPago.Mostrar_MediosPago();
+            tabla = MediosPago.Mostrar_MediosPago();
             return tabla;
         }
         public void InsertarMediosPago(string metodo)
         {
-            MedioPago.Insertar_MediosPago(metodo);
+            MediosPago.Insertar_MediosPago(metodo);
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into MediosPago values (@metodo)";
             comando.Parameters.AddWithValue("@metodo", metodo);

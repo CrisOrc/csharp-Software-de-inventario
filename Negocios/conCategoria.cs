@@ -11,8 +11,6 @@ namespace Negocios
 {
     public class conCategoria
     {
-        private modCategoria Productos = new modCategoria();
-       
         private modCategoria CATEGORIAS = new modCategoria();
         SqlCommand comando = new SqlCommand();
 
@@ -59,4 +57,5 @@ namespace Negocios
 
 
     }
-}
+
+
