@@ -25,7 +25,7 @@ namespace Datos
             buffer = comando.ExecuteReader();
             tabla.Load(buffer);
             conexion.CerrarConexion();
-            return tabla;
+            return tabla;                                                                                          
 
         }
         public DataTable Mostrar()

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTitle = new Label();
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
+            lblMetodo = new Label();
             txtMetodo = new TextBox();
             gbControles = new GroupBox();
             btnIngresar = new Button();
@@ -41,38 +41,21 @@
             btnInsertar = new Button();
             dtgProductos = new DataGridView();
             clId = new DataGridViewTextBoxColumn();
-            clNombre = new DataGridViewTextBoxColumn();
-            clDescripcion = new DataGridViewTextBoxColumn();
-            clMarca = new DataGridViewTextBoxColumn();
-            clPrecio = new DataGridViewTextBoxColumn();
-            clStock = new DataGridViewTextBoxColumn();
-            clCategoria = new DataGridViewTextBoxColumn();
-            lblMetodo = new Label();
+            clMetodo = new DataGridViewTextBoxColumn();
             gbFormulario.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtgProductos).BeginInit();
             SuspendLayout();
             // 
-            // lblTitle
-            // 
-            lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(21, 33);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(162, 25);
-            lblTitle.TabIndex = 15;
-            lblTitle.Text = "Métodos de pago";
-            // 
             // gbFormulario
             // 
             gbFormulario.Controls.Add(gbCampos);
-            gbFormulario.Controls.Add(lblTitle);
             gbFormulario.Controls.Add(gbControles);
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(345, 582);
+            gbFormulario.Size = new Size(345, 309);
             gbFormulario.TabIndex = 18;
             gbFormulario.TabStop = false;
             // 
@@ -80,11 +63,21 @@
             // 
             gbCampos.Controls.Add(lblMetodo);
             gbCampos.Controls.Add(txtMetodo);
-            gbCampos.Location = new Point(6, 85);
+            gbCampos.Location = new Point(6, 12);
             gbCampos.Name = "gbCampos";
-            gbCampos.Size = new Size(333, 355);
+            gbCampos.Size = new Size(333, 145);
             gbCampos.TabIndex = 24;
             gbCampos.TabStop = false;
+            // 
+            // lblMetodo
+            // 
+            lblMetodo.AutoSize = true;
+            lblMetodo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMetodo.Location = new Point(15, 19);
+            lblMetodo.Name = "lblMetodo";
+            lblMetodo.Size = new Size(64, 21);
+            lblMetodo.TabIndex = 28;
+            lblMetodo.Text = "Método";
             // 
             // txtMetodo
             // 
@@ -103,7 +96,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 446);
+            gbControles.Location = new Point(6, 160);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -172,11 +165,11 @@
             // dtgProductos
             // 
             dtgProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clDescripcion, clMarca, clPrecio, clStock, clCategoria });
+            dtgProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clMetodo });
             dtgProductos.Dock = DockStyle.Right;
-            dtgProductos.Location = new Point(369, 0);
+            dtgProductos.Location = new Point(372, 0);
             dtgProductos.Name = "dtgProductos";
-            dtgProductos.Size = new Size(778, 582);
+            dtgProductos.Size = new Size(294, 309);
             dtgProductos.TabIndex = 17;
             // 
             // clId
@@ -184,59 +177,22 @@
             clId.HeaderText = "ID";
             clId.Name = "clId";
             // 
-            // clNombre
+            // clMetodo
             // 
-            clNombre.HeaderText = "Nombre";
-            clNombre.Name = "clNombre";
-            // 
-            // clDescripcion
-            // 
-            clDescripcion.HeaderText = "Descripcion";
-            clDescripcion.Name = "clDescripcion";
-            // 
-            // clMarca
-            // 
-            clMarca.HeaderText = "Marca";
-            clMarca.Name = "clMarca";
-            // 
-            // clPrecio
-            // 
-            clPrecio.HeaderText = "Precio";
-            clPrecio.Name = "clPrecio";
-            // 
-            // clStock
-            // 
-            clStock.HeaderText = "Stock";
-            clStock.Name = "clStock";
-            // 
-            // clCategoria
-            // 
-            clCategoria.HeaderText = "Categoria ID";
-            clCategoria.Name = "clCategoria";
-            // 
-            // lblMetodo
-            // 
-            lblMetodo.AutoSize = true;
-            lblMetodo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMetodo.Location = new Point(15, 19);
-            lblMetodo.Name = "lblMetodo";
-            lblMetodo.Size = new Size(64, 21);
-            lblMetodo.TabIndex = 28;
-            lblMetodo.Text = "Método";
+            clMetodo.HeaderText = "Metodo";
+            clMetodo.Name = "clMetodo";
             // 
             // frmMediosPago
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1147, 582);
+            ClientSize = new Size(666, 309);
             Controls.Add(gbFormulario);
             Controls.Add(dtgProductos);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "frmMediosPago";
-            Text = "frmMediosPago";
+            Text = "Medios Pago";
             Load += frmMediosPago_Load;
             gbFormulario.ResumeLayout(false);
-            gbFormulario.PerformLayout();
             gbCampos.ResumeLayout(false);
             gbCampos.PerformLayout();
             gbControles.ResumeLayout(false);
@@ -245,8 +201,6 @@
         }
 
         #endregion
-
-        private Label lblTitle;
         private GroupBox gbFormulario;
         private GroupBox gbCampos;
         private ComboBox cbCategoria;
@@ -269,13 +223,8 @@
         private Button btnActualizar;
         private Button btnInsertar;
         private DataGridView dtgProductos;
-        private DataGridViewTextBoxColumn clId;
-        private DataGridViewTextBoxColumn clNombre;
-        private DataGridViewTextBoxColumn clDescripcion;
-        private DataGridViewTextBoxColumn clMarca;
-        private DataGridViewTextBoxColumn clPrecio;
-        private DataGridViewTextBoxColumn clStock;
-        private DataGridViewTextBoxColumn clCategoria;
         private Label lblMetodo;
+        private DataGridViewTextBoxColumn clId;
+        private DataGridViewTextBoxColumn clMetodo;
     }
 }

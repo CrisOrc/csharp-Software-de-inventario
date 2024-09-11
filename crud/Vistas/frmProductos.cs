@@ -12,6 +12,18 @@ namespace Presentacion.Vistas
 {
     public partial class frmProductos : Form
     {
+        private static frmProductos instancia = null;
+
+        public static frmProductos VentanaUnica()
+        {
+            if (instancia == null)
+            {
+                instancia = new frmProductos();
+                return instancia;
+            }
+            return instancia;
+        }
+
         public frmProductos()
         {
             InitializeComponent();

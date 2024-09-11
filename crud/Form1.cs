@@ -1,33 +1,75 @@
 using Negocios;
-using Presentacion.Logic;
-using Presentacion.Vistas;
 
 namespace crud
 {
     public partial class frmMain : Form
     {
-        /*private conProducto Producto = new conProducto();
+        private conProducto Producto = new conProducto();
         private string idProducto = null;
+<<<<<<< HEAD
         private bool Editar = false;*/
 
-        UsePanel panel = null;
+        //UsePanel panel = null;
+=======
+        private bool Editar = false;
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 
         public frmMain()
         {
             InitializeComponent();
-            panel = new UsePanel(pnlVistas);
+<<<<<<< HEAD
+            //panel = new UsePanel(pnlVistas);
         }
 
-        private void msiInicio_Click(object sender, EventArgs e)
+        private void msiGestionProductos_Click(object sender, EventArgs e)
         {
-            panel.CloseChildForm();
+            frmProductos frm = frmProductos.VentanaUnica();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void msiCategoriaProductos_Click(object sender, EventArgs e)
+        {
+            frmCategoriaProductos frm = frmCategoriaProductos.VentanaUnica();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void msiUsuarios_Click(object sender, EventArgs e)
+        {
+            frmUsuarios frm = frmUsuarios.VentanaUnica();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void msiClientes_Click(object sender, EventArgs e)
+        {
+            frmClientes frm = frmClientes.VentanaUnica();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void mediosDePagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMediosPago frm = frmMediosPago.VentanaUnica();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+
+        /*private void msiInicio_Click(object sender, EventArgs e)
+        {
+            //panel.CloseChildForm();
+=======
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //MostrarProductos();
+            MostrarProductos();
         }
 
+<<<<<<< HEAD
         private void msiGestionProductos_Click(object sender, EventArgs e)
         {
             panel.OpenChildForm(new frmProductos());
@@ -51,11 +93,14 @@ namespace crud
         private void mediosDePagoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panel.OpenChildForm(new frmMediosPago());
-        }
+        }*/
 
 
 
         /*private void MostrarProductos()
+=======
+        private void MostrarProductos()
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
         {
             conProducto objeto = new conProducto();
             dataGridView1.DataSource = objeto.MostrarProd();
@@ -157,6 +202,6 @@ namespace crud
         private void button4_Click(object sender, EventArgs e)
         {
             txtResult.Text = Convert.ToString(Producto.Contar());
-        }*/
+        }
     }
 }

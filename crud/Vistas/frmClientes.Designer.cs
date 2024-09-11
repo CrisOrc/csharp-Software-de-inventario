@@ -36,7 +36,6 @@
             txtEmail = new TextBox();
             lblNombre = new Label();
             txtNombre = new TextBox();
-            lblTitle = new Label();
             gbControles = new GroupBox();
             btnIngresar = new Button();
             btnCancelar = new Button();
@@ -47,11 +46,8 @@
             dtgClientes = new DataGridView();
             clId = new DataGridViewTextBoxColumn();
             clNombre = new DataGridViewTextBoxColumn();
-            clDescripcion = new DataGridViewTextBoxColumn();
-            clMarca = new DataGridViewTextBoxColumn();
-            clPrecio = new DataGridViewTextBoxColumn();
-            clStock = new DataGridViewTextBoxColumn();
-            clCategoria = new DataGridViewTextBoxColumn();
+            clEmail = new DataGridViewTextBoxColumn();
+            clTelefono = new DataGridViewTextBoxColumn();
             gbFormulario.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
@@ -61,12 +57,11 @@
             // gbFormulario
             // 
             gbFormulario.Controls.Add(gbCampos);
-            gbFormulario.Controls.Add(lblTitle);
             gbFormulario.Controls.Add(gbControles);
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(345, 582);
+            gbFormulario.Size = new Size(353, 487);
             gbFormulario.TabIndex = 18;
             gbFormulario.TabStop = false;
             // 
@@ -78,7 +73,7 @@
             gbCampos.Controls.Add(txtEmail);
             gbCampos.Controls.Add(lblNombre);
             gbCampos.Controls.Add(txtNombre);
-            gbCampos.Location = new Point(6, 85);
+            gbCampos.Location = new Point(6, 7);
             gbCampos.Name = "gbCampos";
             gbCampos.Size = new Size(333, 355);
             gbCampos.TabIndex = 24;
@@ -141,16 +136,6 @@
             txtNombre.Size = new Size(195, 29);
             txtNombre.TabIndex = 27;
             // 
-            // lblTitle
-            // 
-            lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(21, 33);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(147, 25);
-            lblTitle.TabIndex = 15;
-            lblTitle.Text = "Gestión clientes";
-            // 
             // gbControles
             // 
             gbControles.Controls.Add(btnIngresar);
@@ -159,7 +144,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 446);
+            gbControles.Location = new Point(6, 361);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -228,11 +213,11 @@
             // dtgClientes
             // 
             dtgClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgClientes.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clDescripcion, clMarca, clPrecio, clStock, clCategoria });
+            dtgClientes.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clEmail, clTelefono });
             dtgClientes.Dock = DockStyle.Right;
-            dtgClientes.Location = new Point(369, 0);
+            dtgClientes.Location = new Point(379, 0);
             dtgClientes.Name = "dtgClientes";
-            dtgClientes.Size = new Size(778, 582);
+            dtgClientes.Size = new Size(475, 487);
             dtgClientes.TabIndex = 17;
             // 
             // clId
@@ -245,44 +230,27 @@
             clNombre.HeaderText = "Nombre";
             clNombre.Name = "clNombre";
             // 
-            // clDescripcion
+            // clEmail
             // 
-            clDescripcion.HeaderText = "Descripcion";
-            clDescripcion.Name = "clDescripcion";
+            clEmail.HeaderText = "Email";
+            clEmail.Name = "clEmail";
             // 
-            // clMarca
+            // clTelefono
             // 
-            clMarca.HeaderText = "Marca";
-            clMarca.Name = "clMarca";
-            // 
-            // clPrecio
-            // 
-            clPrecio.HeaderText = "Precio";
-            clPrecio.Name = "clPrecio";
-            // 
-            // clStock
-            // 
-            clStock.HeaderText = "Stock";
-            clStock.Name = "clStock";
-            // 
-            // clCategoria
-            // 
-            clCategoria.HeaderText = "Categoria ID";
-            clCategoria.Name = "clCategoria";
+            clTelefono.HeaderText = "Telefono";
+            clTelefono.Name = "clTelefono";
             // 
             // frmClientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1147, 582);
+            ClientSize = new Size(854, 487);
             Controls.Add(gbFormulario);
             Controls.Add(dtgClientes);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "frmClientes";
-            Text = "frmClientes";
+            Text = "Clientes";
             Load += frmClientes_Load;
             gbFormulario.ResumeLayout(false);
-            gbFormulario.PerformLayout();
             gbCampos.ResumeLayout(false);
             gbCampos.PerformLayout();
             gbControles.ResumeLayout(false);
@@ -300,7 +268,6 @@
         private TextBox txtEmail;
         private Label lblNombre;
         private TextBox txtNombre;
-        private Label lblTitle;
         private GroupBox gbControles;
         private Button btnIngresar;
         private Button btnCancelar;
@@ -311,10 +278,7 @@
         private DataGridView dtgClientes;
         private DataGridViewTextBoxColumn clId;
         private DataGridViewTextBoxColumn clNombre;
-        private DataGridViewTextBoxColumn clDescripcion;
-        private DataGridViewTextBoxColumn clMarca;
-        private DataGridViewTextBoxColumn clPrecio;
-        private DataGridViewTextBoxColumn clStock;
-        private DataGridViewTextBoxColumn clCategoria;
+        private DataGridViewTextBoxColumn clEmail;
+        private DataGridViewTextBoxColumn clTelefono;
     }
 }

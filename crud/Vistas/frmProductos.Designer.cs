@@ -36,7 +36,6 @@
             clPrecio = new DataGridViewTextBoxColumn();
             clStock = new DataGridViewTextBoxColumn();
             clCategoria = new DataGridViewTextBoxColumn();
-            lblTitle = new Label();
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
             cbCategoria = new ComboBox();
@@ -69,9 +68,9 @@
             dtgProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clDescripcion, clMarca, clPrecio, clStock, clCategoria });
             dtgProductos.Dock = DockStyle.Right;
-            dtgProductos.Location = new Point(369, 0);
+            dtgProductos.Location = new Point(344, 0);
             dtgProductos.Name = "dtgProductos";
-            dtgProductos.Size = new Size(778, 582);
+            dtgProductos.Size = new Size(778, 486);
             dtgProductos.TabIndex = 0;
             // 
             // clId
@@ -109,26 +108,14 @@
             clCategoria.HeaderText = "Categoria ID";
             clCategoria.Name = "clCategoria";
             // 
-            // lblTitle
-            // 
-            lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(21, 33);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(168, 25);
-            lblTitle.TabIndex = 15;
-            lblTitle.Text = "Gestión productos";
-            lblTitle.Click += lblTitle_Click;
-            // 
             // gbFormulario
             // 
             gbFormulario.Controls.Add(gbCampos);
-            gbFormulario.Controls.Add(lblTitle);
             gbFormulario.Controls.Add(gbControles);
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(345, 582);
+            gbFormulario.Size = new Size(345, 486);
             gbFormulario.TabIndex = 16;
             gbFormulario.TabStop = false;
             // 
@@ -146,7 +133,7 @@
             gbCampos.Controls.Add(txtDescripcion);
             gbCampos.Controls.Add(lblNombre);
             gbCampos.Controls.Add(txtNombre);
-            gbCampos.Location = new Point(6, 85);
+            gbCampos.Location = new Point(6, 13);
             gbCampos.Name = "gbCampos";
             gbCampos.Size = new Size(333, 355);
             gbCampos.TabIndex = 24;
@@ -274,7 +261,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 446);
+            gbControles.Location = new Point(6, 369);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -344,16 +331,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1147, 582);
+            ClientSize = new Size(1122, 486);
             Controls.Add(gbFormulario);
             Controls.Add(dtgProductos);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "frmProductos";
-            Text = "frmProductos";
+            Text = "Productos";
             Load += frmProductos_Load;
             ((System.ComponentModel.ISupportInitialize)dtgProductos).EndInit();
             gbFormulario.ResumeLayout(false);
-            gbFormulario.PerformLayout();
             gbCampos.ResumeLayout(false);
             gbCampos.PerformLayout();
             gbControles.ResumeLayout(false);
@@ -370,7 +355,6 @@
         private DataGridViewTextBoxColumn clPrecio;
         private DataGridViewTextBoxColumn clStock;
         private DataGridViewTextBoxColumn clCategoria;
-        private Label lblTitle;
         private GroupBox gbFormulario;
         private Button btnIngresar;
         private Button btnInsertar;

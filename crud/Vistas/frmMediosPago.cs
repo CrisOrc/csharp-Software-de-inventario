@@ -12,6 +12,18 @@ namespace Presentacion.Vistas
 {
     public partial class frmMediosPago : Form
     {
+        private static frmMediosPago instancia = null;
+
+        public static frmMediosPago VentanaUnica()
+        {
+            if (instancia == null)
+            {
+                instancia = new frmMediosPago();
+                return instancia;
+            }
+            return instancia;
+        }
+
         public frmMediosPago()
         {
             InitializeComponent();

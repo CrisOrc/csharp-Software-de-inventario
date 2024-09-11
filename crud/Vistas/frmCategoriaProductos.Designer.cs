@@ -32,7 +32,6 @@
             gbCampos = new GroupBox();
             lblNombre = new Label();
             txtNombre = new TextBox();
-            lblTitle = new Label();
             gbControles = new GroupBox();
             btnIngresar = new Button();
             btnCancelar = new Button();
@@ -43,11 +42,6 @@
             dtgCategoriaProductos = new DataGridView();
             clId = new DataGridViewTextBoxColumn();
             clNombre = new DataGridViewTextBoxColumn();
-            clDescripcion = new DataGridViewTextBoxColumn();
-            clMarca = new DataGridViewTextBoxColumn();
-            clPrecio = new DataGridViewTextBoxColumn();
-            clStock = new DataGridViewTextBoxColumn();
-            clCategoria = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
@@ -57,12 +51,11 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(gbCampos);
-            groupBox1.Controls.Add(lblTitle);
             groupBox1.Controls.Add(gbControles);
             groupBox1.Dock = DockStyle.Left;
             groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(351, 582);
+            groupBox1.Size = new Size(351, 495);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
@@ -70,7 +63,7 @@
             // 
             gbCampos.Controls.Add(lblNombre);
             gbCampos.Controls.Add(txtNombre);
-            gbCampos.Location = new Point(6, 85);
+            gbCampos.Location = new Point(6, 12);
             gbCampos.Name = "gbCampos";
             gbCampos.Size = new Size(333, 355);
             gbCampos.TabIndex = 27;
@@ -95,16 +88,6 @@
             txtNombre.Size = new Size(195, 29);
             txtNombre.TabIndex = 27;
             // 
-            // lblTitle
-            // 
-            lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(21, 33);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(186, 25);
-            lblTitle.TabIndex = 25;
-            lblTitle.Text = "Categoria productos";
-            // 
             // gbControles
             // 
             gbControles.Controls.Add(btnIngresar);
@@ -113,7 +96,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 446);
+            gbControles.Location = new Point(6, 371);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 26;
@@ -183,11 +166,11 @@
             // dtgCategoriaProductos
             // 
             dtgCategoriaProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgCategoriaProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clDescripcion, clMarca, clPrecio, clStock, clCategoria });
+            dtgCategoriaProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre });
             dtgCategoriaProductos.Dock = DockStyle.Right;
-            dtgCategoriaProductos.Location = new Point(369, 0);
+            dtgCategoriaProductos.Location = new Point(362, 0);
             dtgCategoriaProductos.Name = "dtgCategoriaProductos";
-            dtgCategoriaProductos.Size = new Size(778, 582);
+            dtgCategoriaProductos.Size = new Size(273, 495);
             dtgCategoriaProductos.TabIndex = 1;
             // 
             // clId
@@ -200,44 +183,17 @@
             clNombre.HeaderText = "Nombre";
             clNombre.Name = "clNombre";
             // 
-            // clDescripcion
-            // 
-            clDescripcion.HeaderText = "Descripcion";
-            clDescripcion.Name = "clDescripcion";
-            // 
-            // clMarca
-            // 
-            clMarca.HeaderText = "Marca";
-            clMarca.Name = "clMarca";
-            // 
-            // clPrecio
-            // 
-            clPrecio.HeaderText = "Precio";
-            clPrecio.Name = "clPrecio";
-            // 
-            // clStock
-            // 
-            clStock.HeaderText = "Stock";
-            clStock.Name = "clStock";
-            // 
-            // clCategoria
-            // 
-            clCategoria.HeaderText = "Categoria ID";
-            clCategoria.Name = "clCategoria";
-            // 
             // frmCategoriaProductos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1147, 582);
+            ClientSize = new Size(635, 495);
             Controls.Add(dtgCategoriaProductos);
             Controls.Add(groupBox1);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "frmCategoriaProductos";
-            Text = "frmCategoriaProductos";
+            Text = "Categoria Productos";
             Load += frmCategoriaProductos_Load;
             groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             gbCampos.ResumeLayout(false);
             gbCampos.PerformLayout();
             gbControles.ResumeLayout(false);
@@ -251,7 +207,6 @@
         private GroupBox gbCampos;
         private Label lblNombre;
         private TextBox txtNombre;
-        private Label lblTitle;
         private GroupBox gbControles;
         private Button btnIngresar;
         private Button btnCancelar;
@@ -262,10 +217,5 @@
         private DataGridView dtgCategoriaProductos;
         private DataGridViewTextBoxColumn clId;
         private DataGridViewTextBoxColumn clNombre;
-        private DataGridViewTextBoxColumn clDescripcion;
-        private DataGridViewTextBoxColumn clMarca;
-        private DataGridViewTextBoxColumn clPrecio;
-        private DataGridViewTextBoxColumn clStock;
-        private DataGridViewTextBoxColumn clCategoria;
     }
 }

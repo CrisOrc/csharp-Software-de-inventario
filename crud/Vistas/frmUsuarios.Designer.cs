@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTitle = new Label();
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
             cbRoll = new ComboBox();
@@ -48,37 +47,24 @@
             btnInsertar = new Button();
             dtgUsuarios = new DataGridView();
             clId = new DataGridViewTextBoxColumn();
-            clNombre = new DataGridViewTextBoxColumn();
-            clDescripcion = new DataGridViewTextBoxColumn();
-            clMarca = new DataGridViewTextBoxColumn();
-            clPrecio = new DataGridViewTextBoxColumn();
-            clStock = new DataGridViewTextBoxColumn();
-            clCategoria = new DataGridViewTextBoxColumn();
+            clUsername = new DataGridViewTextBoxColumn();
+            clEmail = new DataGridViewTextBoxColumn();
+            clPassword = new DataGridViewTextBoxColumn();
+            clRol = new DataGridViewTextBoxColumn();
             gbFormulario.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtgUsuarios).BeginInit();
             SuspendLayout();
             // 
-            // lblTitle
-            // 
-            lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(21, 33);
-            lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(153, 25);
-            lblTitle.TabIndex = 15;
-            lblTitle.Text = "Gestión usuarios";
-            // 
             // gbFormulario
             // 
             gbFormulario.Controls.Add(gbCampos);
-            gbFormulario.Controls.Add(lblTitle);
             gbFormulario.Controls.Add(gbControles);
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(345, 582);
+            gbFormulario.Size = new Size(345, 488);
             gbFormulario.TabIndex = 18;
             gbFormulario.TabStop = false;
             // 
@@ -92,7 +78,7 @@
             gbCampos.Controls.Add(txtEmail);
             gbCampos.Controls.Add(lblUsername);
             gbCampos.Controls.Add(txtUsername);
-            gbCampos.Location = new Point(6, 85);
+            gbCampos.Location = new Point(6, 13);
             gbCampos.Name = "gbCampos";
             gbCampos.Size = new Size(333, 355);
             gbCampos.TabIndex = 24;
@@ -182,7 +168,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 446);
+            gbControles.Location = new Point(6, 368);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -251,11 +237,11 @@
             // dtgUsuarios
             // 
             dtgUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgUsuarios.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clDescripcion, clMarca, clPrecio, clStock, clCategoria });
+            dtgUsuarios.Columns.AddRange(new DataGridViewColumn[] { clId, clUsername, clEmail, clPassword, clRol });
             dtgUsuarios.Dock = DockStyle.Right;
-            dtgUsuarios.Location = new Point(369, 0);
+            dtgUsuarios.Location = new Point(359, 0);
             dtgUsuarios.Name = "dtgUsuarios";
-            dtgUsuarios.Size = new Size(778, 582);
+            dtgUsuarios.Size = new Size(601, 488);
             dtgUsuarios.TabIndex = 17;
             // 
             // clId
@@ -263,49 +249,37 @@
             clId.HeaderText = "ID";
             clId.Name = "clId";
             // 
-            // clNombre
+            // clUsername
             // 
-            clNombre.HeaderText = "Nombre";
-            clNombre.Name = "clNombre";
+            clUsername.HeaderText = "Username";
+            clUsername.Name = "clUsername";
             // 
-            // clDescripcion
+            // clEmail
             // 
-            clDescripcion.HeaderText = "Descripcion";
-            clDescripcion.Name = "clDescripcion";
+            clEmail.HeaderText = "Email";
+            clEmail.Name = "clEmail";
             // 
-            // clMarca
+            // clPassword
             // 
-            clMarca.HeaderText = "Marca";
-            clMarca.Name = "clMarca";
+            clPassword.HeaderText = "Password";
+            clPassword.Name = "clPassword";
             // 
-            // clPrecio
+            // clRol
             // 
-            clPrecio.HeaderText = "Precio";
-            clPrecio.Name = "clPrecio";
-            // 
-            // clStock
-            // 
-            clStock.HeaderText = "Stock";
-            clStock.Name = "clStock";
-            // 
-            // clCategoria
-            // 
-            clCategoria.HeaderText = "Categoria ID";
-            clCategoria.Name = "clCategoria";
+            clRol.HeaderText = "Rol";
+            clRol.Name = "clRol";
             // 
             // frmUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1147, 582);
+            ClientSize = new Size(960, 488);
             Controls.Add(gbFormulario);
             Controls.Add(dtgUsuarios);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "frmUsuarios";
-            Text = "frmUsuarios";
+            Text = "Usuarios";
             Load += frmUsuarios_Load;
             gbFormulario.ResumeLayout(false);
-            gbFormulario.PerformLayout();
             gbCampos.ResumeLayout(false);
             gbCampos.PerformLayout();
             gbControles.ResumeLayout(false);
@@ -314,8 +288,6 @@
         }
 
         #endregion
-
-        private Label lblTitle;
         private GroupBox gbFormulario;
         private GroupBox gbCampos;
         private ComboBox cbRoll;
@@ -335,11 +307,9 @@
         private Button btnInsertar;
         private DataGridView dtgUsuarios;
         private DataGridViewTextBoxColumn clId;
-        private DataGridViewTextBoxColumn clNombre;
-        private DataGridViewTextBoxColumn clDescripcion;
-        private DataGridViewTextBoxColumn clMarca;
-        private DataGridViewTextBoxColumn clPrecio;
-        private DataGridViewTextBoxColumn clStock;
-        private DataGridViewTextBoxColumn clCategoria;
+        private DataGridViewTextBoxColumn clUsername;
+        private DataGridViewTextBoxColumn clEmail;
+        private DataGridViewTextBoxColumn clPassword;
+        private DataGridViewTextBoxColumn clRol;
     }
 }
