@@ -104,5 +104,13 @@ namespace Datos
             comando.Parameters.Clear();
             conexion.CerrarConexion();
         }
+<<<<<<< HEAD
+
+        public DataTable Mostrar_Usuarios()
+        {
+            throw new NotImplementedException();
+        }
+=======
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
     }
 }
