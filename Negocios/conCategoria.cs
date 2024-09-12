@@ -11,6 +11,7 @@ namespace Negocios
 {
     public class conCategoria
     {
+        private Conexion conexion = new Conexion();
         private modCategoria CATEGORIAS = new modCategoria();
         SqlCommand comando = new SqlCommand();
 
@@ -22,7 +23,7 @@ namespace Negocios
         }
         public void InsertarCategoria(string nombre, int id)
         {
-            CATEGORIAS.Insertar_Categoria();
+            CATEGORIAS.Insertar_Categoria(nombre, id);
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Categorias values (@nombre)";
             comando.Parameters.AddWithValue("@nombre", nombre);

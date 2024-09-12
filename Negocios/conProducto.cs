@@ -11,6 +11,7 @@ namespace Negocios
 {
     public class conProducto
     {
+        private Conexion conexion = new Conexion();
         private modProductos Productos = new modProductos();
         SqlCommand comando = new SqlCommand();
 
