@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    public class modUsuariosroductos
+    public class modUsuarios
     {
         private Conexion conexion = new Conexion();
 
@@ -16,19 +16,8 @@ namespace Datos
 
         DataTable tabla = new DataTable();
         SqlCommand comando = new SqlCommand();
-        public DataTable Mostrar_SP()
-        {
 
-            comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "MostrarUsuarios";
-            comando.CommandType = CommandType.StoredProcedure;
-            buffer = comando.ExecuteReader();
-            tabla.Load(buffer);
-            conexion.CerrarConexion();
-            return tabla;
-
-        }
-        public DataTable Mostrar()
+        public DataTable Mostrar_Usuarios()
         {
 
             comando.Connection = conexion.AbrirConexion();
@@ -66,7 +55,7 @@ namespace Datos
             return (nombre);
         }
 
-        public void Insertar(string Username, string Email, string PasswordHash, double Rol)
+        public void Insertar_Usuarios(string Username, string Email, string PasswordHash, double Rol)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Productos values (@username,@email,@passwordhash,@rol)";
@@ -79,7 +68,7 @@ namespace Datos
             conexion.CerrarConexion();
         }
 
-        public void Editar(string Username, string Email, string PasswordHash, double Rol, int id)
+        public void Editar_Usuarios(string Username, string Email, string PasswordHash, int Rol, int id)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Productos values (@username,@email,@passwordhash,@rol)";
@@ -94,7 +83,7 @@ namespace Datos
         }
     
 
-        public void Eliminar(int id)
+        public void Eliminar_Usuarios(int id)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "delete from Productos where Id=@idpro";

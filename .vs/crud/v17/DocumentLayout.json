@@ -1,6 +1,13 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\okmar\\downloads\\proyectos c#\\hdp3\\datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\",
   "Documents": [
     {
@@ -65,6 +72,7 @@
       "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\santi\\csharp-software-de-inventario\\datos\\modproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\modproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
+>>>>>>> dev
     }
   ],
   "DocumentGroupContainers": [
@@ -74,6 +82,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Datos\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\DataAccess.cs",
+              "RelativeToolTip": "Datos\\DataAccess.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:44:20.243Z",
+=======
 <<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
@@ -272,6 +295,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T22:15:20.425Z",
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
+>>>>>>> dev
               "EditorCaption": ""
             }
           ]
