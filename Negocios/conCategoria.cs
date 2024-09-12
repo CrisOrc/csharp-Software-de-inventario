@@ -12,6 +12,11 @@ namespace Negocios
     public class conCategoria
     {
         private Conexion conexion = new Conexion();
+<<<<<<< HEAD
+=======
+        private modCategoria Productos = new modCategoria();
+       
+>>>>>>> dev
         private modCategoria CATEGORIAS = new modCategoria();
         SqlCommand comando = new SqlCommand();
 
@@ -54,7 +59,11 @@ namespace Negocios
             conexion.CerrarConexion();
         }
 
+<<<<<<< HEAD
+        
+=======
         }
+>>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 
 
     }
