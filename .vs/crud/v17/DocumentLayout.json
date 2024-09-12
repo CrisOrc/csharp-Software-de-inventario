@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|c:\\users\\okmar\\downloads\\proyectos c#\\hdp3\\negocios\\conlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{415CA1E2-7831-4D1A-B41C-A62C90CE8DEE}|Negocios\\Negocios.csproj|solutionrelative:negocios\\conlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\okmar\\downloads\\proyectos c#\\hdp3\\datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "conLogin.cs",
-              "DocumentMoniker": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\conLogin.cs",
-              "RelativeDocumentMoniker": "Negocios\\conLogin.cs",
-              "ToolTip": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\conLogin.cs",
-              "RelativeToolTip": "Negocios\\conLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Datos\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\DataAccess.cs",
+              "RelativeToolTip": "Datos\\DataAccess.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:14:46.562Z",
+              "WhenOpened": "2024-09-12T01:44:20.243Z",
               "EditorCaption": ""
             }
           ]

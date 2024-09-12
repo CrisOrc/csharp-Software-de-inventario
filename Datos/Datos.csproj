@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="DataAccess.cs" />
     <Compile Include="modFactura.cs" />
     <Compile Include="modCliente.cs" />
     <Compile Include="modMedioPago.cs" />
