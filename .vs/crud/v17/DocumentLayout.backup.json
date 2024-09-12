@@ -1,7 +1,17 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|c:\\users\\okmar\\downloads\\proyectos c#\\hdp3\\datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1363EACC-9004-4DD1-874E-402DF5613046}|Datos\\Datos.csproj|solutionrelative:datos\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+=======
   "WorkspaceRootPath": "D:\\002_PASCUAL\\005_SEMESTRE\\Herramientas 3\\csharp-Software-de-inventario\\",
   "Documents": [],
+>>>>>>> dev
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +19,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Datos\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\DataAccess.cs",
+              "RelativeToolTip": "Datos\\DataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:44:20.243Z",
+              "EditorCaption": ""
+=======
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+>>>>>>> dev
             }
           ]
         }

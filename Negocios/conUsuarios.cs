@@ -11,6 +11,7 @@ namespace Negocios
 {
     public class conUsuarios
     {
+        private Conexion conexion = new Conexion();
         private modUsuarios Usuarios = new modUsuarios();
         SqlCommand comando = new SqlCommand();
 <<<<<<< HEAD
@@ -24,7 +25,7 @@ namespace Negocios
             tabla = Usuarios.Mostrar_Usuarios();
             return tabla;
         }
-        public void InsertarUsuarios(string username, string email, string passwordHash, string rol)
+        public void InsertarUsuarios(string username, string email, string passwordHash, int rol)
         {
             Usuarios.Insertar_Usuarios(username, email, passwordHash, rol);
             comando.Connection = conexion.AbrirConexion();
@@ -36,7 +37,7 @@ namespace Negocios
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
         }
-        public void EditarUsuarios(string username, string email, string passwordHash, string rol, string id)
+        public void EditarUsuarios(string username, string email, string passwordHash, int rol, string id)
         {
             Usuarios.Editar_Usuarios(username, email, passwordHash, rol, Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();

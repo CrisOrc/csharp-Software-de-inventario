@@ -11,6 +11,7 @@ namespace Negocios
 {
     public class conCliente
     {
+        private Conexion conexion = new Conexion();
         private modCliente Clientes = new modCliente();
         SqlCommand comando = new SqlCommand();
 <<<<<<< HEAD
@@ -21,12 +22,12 @@ namespace Negocios
         public DataTable MostrarClientes()
         {
             DataTable tabla = new DataTable();
-            tabla = Clientes.Mostrar_Clientes();
+            tabla = Clientes.Mostrar_Cliente();
             return tabla;
         }
-        public void InsertarClientes(string nombre, string email, string tel)
+        public void InsertarClientes(string nombre, string email, int tel, int id)
         {
-            Clientes.Insertar_Clientes(nombre, email, Convert.ToInt32(tel));
+            Clientes.Insertar_Cliente(nombre, email, Convert.ToInt32(tel), id);
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Clientes values (@nombre,@Email,@Telefono)";
             comando.Parameters.AddWithValue("@nombre", nombre);
@@ -35,9 +36,9 @@ namespace Negocios
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
         }
-        public void EditarClientes(string nombre, string email, string tel, string id)
+        public void EditarClientes(string nombre, string email, int tel, string id)
         {
-            Clientes.Editar_Clientes(nombre, email, Convert.ToInt32(tel), Convert.ToInt32(id));
+            Clientes.Editar_Cliente(nombre, email, Convert.ToInt32(tel), Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "update Clientes set Nombre=@nombre, Email = @email, Telefono = @tel where Id=@id";
             comando.CommandType = CommandType.Text;
@@ -51,7 +52,7 @@ namespace Negocios
         }
         public void EliminarClientes(string id)
         {
-            Clientes.Eliminar_Clientes(Convert.ToInt32(id));
+            Clientes.Eliminar_Cliente(Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "delete from Clientes where Id=@idp";
             comando.CommandType = CommandType.Text;

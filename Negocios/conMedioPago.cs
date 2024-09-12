@@ -11,18 +11,19 @@ namespace Negocios
 {
     public class conMedioPago
     {
+        private Conexion conexion = new Conexion();
         private modMedioPago MediosPago = new modMedioPago();
         SqlCommand comando = new SqlCommand();
 
         public DataTable MostrarMediosPago()
         {
             DataTable tabla = new DataTable();
-            tabla = MedioPago.Mostrar_MediosPago();
+            tabla = MediosPago.Mostrar_MediosPago();
             return tabla;
         }
-        public void InsertarMediosPago(string metodo)
+        public void InsertarMediosPago(string metodo, int id)
         {
-            MedioPago.Insertar_MediosPago(metodo);
+            MediosPago.Insertar_MediosPago(metodo, id);
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into MediosPago values (@metodo)";
             comando.Parameters.AddWithValue("@metodo", metodo);
@@ -31,7 +32,7 @@ namespace Negocios
         }
         public void EditarMediosPago(string metodo, string id)
         {
-            MedioPago.Editar_MediosPago(metodo, Convert.ToInt32(id));
+            MediosPago.Editar_MediosPago(metodo, Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "update MediosPago set Metodo = @metodo where Id=@id";
             comando.CommandType = CommandType.Text;
@@ -43,7 +44,7 @@ namespace Negocios
         }
         public void EliminarMediosPago(string id)
         {
-            MedioPago.Eliminar_MediosPago(Convert.ToInt32(id));
+            MediosPago.Eliminar_MediosPago(Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "delete from MediosPago where Id=@idpro";
             comando.CommandType = CommandType.Text;

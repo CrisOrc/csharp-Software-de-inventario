@@ -11,6 +11,7 @@ namespace Negocios
 {
     public class conFactura
     {
+        private Conexion conexion = new Conexion();
         private modFactura Facturas = new modFactura();
         SqlCommand comando = new SqlCommand();
 
@@ -36,7 +37,7 @@ namespace Negocios
         }
         public void Editar_Factura(DateTime fecha, int idcliente, int id, int total, int mediodepago)
         {
-            comando.Connection = conexion.AbrirConexion(fecha, id,idcliente, total, mediodepago);
+            comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "update Factura set Nombre=@nombre, Id=@id, email=@email, telefono=@telefono";
             comando.CommandType = CommandType.Text;
             comando.Parameters.AddWithValue("@fecha", fecha);
