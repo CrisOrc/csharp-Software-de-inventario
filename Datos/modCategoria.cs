@@ -21,19 +21,18 @@ namespace Datos
         {
 
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "select * from Categoria";
+            comando.CommandText = "select * from dbo.Categorias";
             buffer = comando.ExecuteReader();
             tabla.Load(buffer);
             conexion.CerrarConexion();
             return tabla;
 
         }
-        public void Insertar_Categoria(string nombre, int id)
+        public void Insertar_Categoria(string nombre)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "insert into Categoria values (@nombre,@i)";
+            comando.CommandText = "insert into Categorias values (@nombre)";
             comando.Parameters.AddWithValue("@nombre", nombre);
-            comando.Parameters.AddWithValue("@id", id);
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
             conexion.CerrarConexion();
@@ -41,7 +40,7 @@ namespace Datos
         public void Editar_Categoria(string nombre, int id)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "update Categoria set Nombre=@nombre, Id=@id";
+            comando.CommandText = "update Categorias set Nombre=@nombre where Id=@id";
             comando.CommandType = CommandType.Text;
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.Parameters.AddWithValue("@id", id);
@@ -52,7 +51,7 @@ namespace Datos
         public void Eliminar_Categoria(int idpro)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "delete from Categoria where Id=@idpro";
+            comando.CommandText = "delete from Categorias where Id=@idpro";
             comando.CommandType = CommandType.Text;
             comando.Parameters.AddWithValue("@idpro", idpro);
             comando.ExecuteNonQuery();

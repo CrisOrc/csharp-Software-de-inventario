@@ -31,3 +31,40 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocio
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.Up2Date
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.pdb
+C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.dll
+C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\BCrypt.Net-Next.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Buffers.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Memory.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Numerics.Vectors.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.dll.config
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\BCrypt.Net-Next.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Buffers.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Memory.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Numerics.Vectors.xml
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\Negocios.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\Negocios.pdb
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Buffers.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Data.SqlClient.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Memory.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.pdb
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\Datos.dll.config
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Buffers.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Data.SqlClient.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Memory.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.Up2Date
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.pdb

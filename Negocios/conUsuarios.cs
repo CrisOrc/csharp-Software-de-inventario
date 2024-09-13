@@ -11,10 +11,11 @@ namespace Negocios
 {
     public class conUsuarios
     {
+        private Conexion conexion = new Conexion();
         private modUsuarios Usuarios = new modUsuarios();
         SqlCommand comando = new SqlCommand();
 
-        public DataTable MostrarProd()
+        public DataTable Mostrar()
         {
             DataTable tabla = new DataTable();
             tabla = Usuarios.Mostrar_Usuarios();
@@ -22,21 +23,22 @@ namespace Negocios
         }
         public void InsertarUsuarios(string username, string email, string passwordHash, string rol)
         {
-            Usuarios.Insertar_Usuarios(username, email, passwordHash, rol);
+            //Usuarios.Insertar_Usuarios(username, email, passwordHash, rol);
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(passwordHash);
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "insert into Usuarios values (@Username,@Email, @PasswordHash,@Rol)";
+            comando.CommandText = "insert into UsuariosSistema values (@Username,@Email, @PasswordHash,@Rol)";
             comando.Parameters.AddWithValue("@Username", username);
             comando.Parameters.AddWithValue("@Email", email);
-            comando.Parameters.AddWithValue("@PasswordHash", passwordHash);
+            comando.Parameters.AddWithValue("@PasswordHash", hashedPassword);
             comando.Parameters.AddWithValue("@Rol", rol);
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
         }
         public void EditarUsuarios(string username, string email, string passwordHash, string rol, string id)
         {
-            Usuarios.Editar_Usuarios(username, email, passwordHash, rol, Convert.ToInt32(id));
+            //Usuarios.Editar_Usuarios(username, email, passwordHash, rol, Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "update Usuarios set Usuario = @Username, email = @Email, Password = @PasswordHash, Rol=@Rol where Id=@id";
+            comando.CommandText = "update UsuariosSistema set Username = @Username, Email = @Email, PasswordHash = @PasswordHash, Rol=@Rol where Id=@id";
             comando.CommandType = CommandType.Text;
             comando.Parameters.AddWithValue("@Username", username);
             comando.Parameters.AddWithValue("@Email", email);

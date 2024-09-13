@@ -30,6 +30,9 @@
         {
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
+            lblMensajeTelefono = new Label();
+            lblMensajeEmail = new Label();
+            lblMensajeNombre = new Label();
             lblTelefono = new Label();
             txtTelefono = new TextBox();
             lblEmail = new Label();
@@ -44,10 +47,6 @@
             btnActualizar = new Button();
             btnInsertar = new Button();
             dtgClientes = new DataGridView();
-            clId = new DataGridViewTextBoxColumn();
-            clNombre = new DataGridViewTextBoxColumn();
-            clEmail = new DataGridViewTextBoxColumn();
-            clTelefono = new DataGridViewTextBoxColumn();
             gbFormulario.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
@@ -61,12 +60,15 @@
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(353, 487);
+            gbFormulario.Size = new Size(353, 362);
             gbFormulario.TabIndex = 18;
             gbFormulario.TabStop = false;
             // 
             // gbCampos
             // 
+            gbCampos.Controls.Add(lblMensajeTelefono);
+            gbCampos.Controls.Add(lblMensajeEmail);
+            gbCampos.Controls.Add(lblMensajeNombre);
             gbCampos.Controls.Add(lblTelefono);
             gbCampos.Controls.Add(txtTelefono);
             gbCampos.Controls.Add(lblEmail);
@@ -75,15 +77,42 @@
             gbCampos.Controls.Add(txtNombre);
             gbCampos.Location = new Point(6, 7);
             gbCampos.Name = "gbCampos";
-            gbCampos.Size = new Size(333, 355);
+            gbCampos.Size = new Size(333, 214);
             gbCampos.TabIndex = 24;
             gbCampos.TabStop = false;
+            // 
+            // lblMensajeTelefono
+            // 
+            lblMensajeTelefono.AutoSize = true;
+            lblMensajeTelefono.Location = new Point(130, 174);
+            lblMensajeTelefono.Name = "lblMensajeTelefono";
+            lblMensajeTelefono.Size = new Size(38, 15);
+            lblMensajeTelefono.TabIndex = 35;
+            lblMensajeTelefono.Text = "label3";
+            // 
+            // lblMensajeEmail
+            // 
+            lblMensajeEmail.AutoSize = true;
+            lblMensajeEmail.Location = new Point(130, 110);
+            lblMensajeEmail.Name = "lblMensajeEmail";
+            lblMensajeEmail.Size = new Size(38, 15);
+            lblMensajeEmail.TabIndex = 34;
+            lblMensajeEmail.Text = "label2";
+            // 
+            // lblMensajeNombre
+            // 
+            lblMensajeNombre.AutoSize = true;
+            lblMensajeNombre.Location = new Point(130, 51);
+            lblMensajeNombre.Name = "lblMensajeNombre";
+            lblMensajeNombre.Size = new Size(38, 15);
+            lblMensajeNombre.TabIndex = 33;
+            lblMensajeNombre.Text = "label1";
             // 
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
             lblTelefono.Font = new Font("Segoe UI", 12F);
-            lblTelefono.Location = new Point(15, 119);
+            lblTelefono.Location = new Point(15, 142);
             lblTelefono.Name = "lblTelefono";
             lblTelefono.Size = new Size(68, 21);
             lblTelefono.TabIndex = 32;
@@ -92,7 +121,7 @@
             // txtTelefono
             // 
             txtTelefono.Font = new Font("Segoe UI", 12F);
-            txtTelefono.Location = new Point(130, 119);
+            txtTelefono.Location = new Point(130, 142);
             txtTelefono.Multiline = true;
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(195, 29);
@@ -102,7 +131,7 @@
             // 
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Segoe UI", 12F);
-            lblEmail.Location = new Point(15, 68);
+            lblEmail.Location = new Point(15, 78);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(48, 21);
             lblEmail.TabIndex = 30;
@@ -111,7 +140,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 12F);
-            txtEmail.Location = new Point(130, 68);
+            txtEmail.Location = new Point(130, 78);
             txtEmail.Multiline = true;
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(195, 29);
@@ -144,7 +173,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 361);
+            gbControles.Location = new Point(6, 221);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -213,42 +242,23 @@
             // dtgClientes
             // 
             dtgClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgClientes.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clEmail, clTelefono });
             dtgClientes.Dock = DockStyle.Right;
             dtgClientes.Location = new Point(379, 0);
             dtgClientes.Name = "dtgClientes";
-            dtgClientes.Size = new Size(475, 487);
+            dtgClientes.Size = new Size(475, 362);
             dtgClientes.TabIndex = 17;
-            // 
-            // clId
-            // 
-            clId.HeaderText = "ID";
-            clId.Name = "clId";
-            // 
-            // clNombre
-            // 
-            clNombre.HeaderText = "Nombre";
-            clNombre.Name = "clNombre";
-            // 
-            // clEmail
-            // 
-            clEmail.HeaderText = "Email";
-            clEmail.Name = "clEmail";
-            // 
-            // clTelefono
-            // 
-            clTelefono.HeaderText = "Telefono";
-            clTelefono.Name = "clTelefono";
+            dtgClientes.CellClick += dtgClientes_CellClick;
             // 
             // frmClientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(854, 487);
+            ClientSize = new Size(854, 362);
             Controls.Add(gbFormulario);
             Controls.Add(dtgClientes);
             Name = "frmClientes";
             Text = "Clientes";
+            FormClosed += frmClientes_FormClosed;
             Load += frmClientes_Load;
             gbFormulario.ResumeLayout(false);
             gbCampos.ResumeLayout(false);
@@ -276,9 +286,8 @@
         private Button btnActualizar;
         private Button btnInsertar;
         private DataGridView dtgClientes;
-        private DataGridViewTextBoxColumn clId;
-        private DataGridViewTextBoxColumn clNombre;
-        private DataGridViewTextBoxColumn clEmail;
-        private DataGridViewTextBoxColumn clTelefono;
+        private Label lblMensajeTelefono;
+        private Label lblMensajeEmail;
+        private Label lblMensajeNombre;
     }
 }

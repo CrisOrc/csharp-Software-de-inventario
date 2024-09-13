@@ -21,7 +21,7 @@ namespace Datos
         {
 
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "select * from MediosPagp";
+            comando.CommandText = "select * from MediosPago";
             buffer = comando.ExecuteReader();
             tabla.Load(buffer);
             conexion.CerrarConexion();

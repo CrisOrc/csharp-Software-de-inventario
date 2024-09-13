@@ -1,59 +1,3 @@
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Presentacion.exe
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Presentacion.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Presentacion.pdb
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.dll
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.pdb
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Datos.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Negocios.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Negocios.pdb
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\Datos.pdb
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\cread\source\repos\crud\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\cread\source\repos\crud\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Presentacion.exe
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Presentacion.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Presentacion.pdb
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Datos.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Negocios.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Negocios.pdb
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\bin\Debug\net8.0-windows\Datos.pdb
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.pdb
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\crud\crud\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
@@ -67,10 +11,19 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bi
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.dll
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.pdb
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.pdb
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll.config
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.xml
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Properties.Resources.resources
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmCategoriaProductos.resources
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmClientes.resources
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
+D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
@@ -83,75 +36,81 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\ob
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.pdb
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
-<<<<<<< HEAD
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.sourcelink.json
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.pdb
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmCategoriaProductos.resources
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmClientes.resources
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.pdb
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.pdb
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.pdb
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmCategoriaProductos.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmClientes.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.sourcelink.json
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.pdb
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
-D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
-D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Properties.Resources.resources
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.pdb
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.pdb
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.pdb
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll.config
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.xml
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Properties.Resources.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmCategoriaProductos.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmClientes.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.sourcelink.json
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.pdb
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
+C:\Users\sebas\OneDrive\Escritorio\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmFacturacion.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.pdb
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Negocios.pdb
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.pdb
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Datos.dll.config
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.xml
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Properties.Resources.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmFacturacion.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmCategoriaProductos.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmClientes.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.sourcelink.json
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.pdb
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
+C:\Users\Asus\Downloads\csharp-Software-de-inventario-new\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll

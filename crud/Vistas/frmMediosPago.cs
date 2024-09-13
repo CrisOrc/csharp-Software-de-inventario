@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace Presentacion.Vistas
     public partial class frmMediosPago : Form
     {
         private static frmMediosPago instancia = null;
+        private string idSeleccionado = null;
 
         public static frmMediosPago VentanaUnica()
         {
@@ -24,6 +26,37 @@ namespace Presentacion.Vistas
             return instancia;
         }
 
+        private bool Validar()
+        {
+            bool metodo = Validacion.Validacion.SoloTexto(txtMetodo.Text,lblMensajeMetodo);
+            return metodo;
+        }
+
+        private void ReiniciarForm()
+        {
+            gbCampos.Enabled = false;
+            btnActualizar.Enabled = false;
+            btnActualizar.Visible = false;
+            btnModificar.Enabled = false;
+            btnModificar.Visible = true;
+            btnEliminar.Enabled = false;
+            btnCancelar.Enabled = false;
+            btnIngresar.Enabled = true;
+            btnIngresar.Visible = true;
+            btnInsertar.Visible = false;
+            this.idSeleccionado = null;
+            ActualizarDTG();
+            txtMetodo.Text = "";
+            lblMensajeMetodo.Text = "";
+        }
+
+        private void ActualizarDTG()
+        {
+            conMedioPago conMedioPago = new conMedioPago();
+            DataTable data = conMedioPago.MostrarMediosPago();
+            dtgProductos.DataSource = data;
+        }
+
         public frmMediosPago()
         {
             InitializeComponent();
@@ -32,18 +65,8 @@ namespace Presentacion.Vistas
         private void frmMediosPago_Load(object sender, EventArgs e)
         {
             ReiniciarForm();
-        }
-
-        private void ReiniciarForm()
-        {
-            gbCampos.Enabled = false;
-            btnActualizar.Enabled = false;
-            btnModificar.Enabled = false;
-            btnEliminar.Enabled = false;
-            btnCancelar.Enabled = false;
-            btnIngresar.Visible = true;
-            btnInsertar.Visible = false;
-            txtMetodo.Text = "";
+            this.BackColor = Color.FromArgb(255, 255, 255);
+            lblMensajeMetodo.ForeColor = Color.FromArgb(229, 57, 53);
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -63,6 +86,9 @@ namespace Presentacion.Vistas
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             //TODO: validaciones frontend y operaciones de insercion de datos
+            if (Validar() is false) return;
+            conMedioPago conMedioPago = new conMedioPago();
+            conMedioPago.InsertarMediosPago(txtMetodo.Text);
             ReiniciarForm();
         }
 
@@ -78,6 +104,16 @@ namespace Presentacion.Vistas
         {
             //TODO: validaciones frontend y operaciones de actualización de datos
             ReiniciarForm();
+        }
+
+        private void dtgProductos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void frmMediosPago_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }

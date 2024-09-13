@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    public class modUsuariosroductos
+    public class modUsuarios
     {
         private Conexion conexion = new Conexion();
 
@@ -16,23 +16,12 @@ namespace Datos
 
         DataTable tabla = new DataTable();
         SqlCommand comando = new SqlCommand();
-        public DataTable Mostrar_SP()
+
+        public DataTable Mostrar_Usuarios()
         {
 
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "MostrarUsuarios";
-            comando.CommandType = CommandType.StoredProcedure;
-            buffer = comando.ExecuteReader();
-            tabla.Load(buffer);
-            conexion.CerrarConexion();
-            return tabla;
-
-        }
-        public DataTable Mostrar()
-        {
-
-            comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "select * from Usuarios";
+            comando.CommandText = "select * from UsuariosSistema";
             buffer = comando.ExecuteReader();
             tabla.Load(buffer);
             conexion.CerrarConexion();
@@ -43,7 +32,7 @@ namespace Datos
         public Int32 contarUsuarios()
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "select count(*) as cuenta from Usuarios";
+            comando.CommandText = "select count(*) as cuenta from UsuariosSistema";
             Int32 cont = (Int32)comando.ExecuteScalar();
             conexion.CerrarConexion();
             return cont;
@@ -52,7 +41,7 @@ namespace Datos
         public string getNombre(int id)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "select Nombre from Usuarios where Id = @id";
+            comando.CommandText = "select Nombre from UsuariosSistema where Id = @id";
             comando.Parameters.AddWithValue("@id", id);
             SqlDataReader data = comando.ExecuteReader();
             string nombre;
@@ -66,10 +55,10 @@ namespace Datos
             return (nombre);
         }
 
-        public void Insertar(string Username, string Email, string PasswordHash, double Rol)
+        public void Insertar_Usuarios(string Username, string Email, string PasswordHash, double Rol)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "insert into Productos values (@username,@email,@passwordhash,@rol)";
+            comando.CommandText = "insert into UsuariosSistema values (@username,@email,@passwordhash,@rol)";
             comando.Parameters.AddWithValue("@username", Username);
             comando.Parameters.AddWithValue("@email", Email);
             comando.Parameters.AddWithValue("@passwordHash", PasswordHash);
@@ -79,10 +68,10 @@ namespace Datos
             conexion.CerrarConexion();
         }
 
-        public void Editar(string Username, string Email, string PasswordHash, double Rol, int id)
+        public void Editar_Usuarios(string Username, string Email, string PasswordHash, string Rol, int id)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "insert into Productos values (@username,@email,@passwordhash,@rol)";
+            comando.CommandText = "insert into UsuariosSistema values (@username,@email,@passwordhash,@rol)";
             comando.Parameters.AddWithValue("@username", Username);
             comando.Parameters.AddWithValue("@email", Email);
             comando.Parameters.AddWithValue("@passwordHash", PasswordHash);
@@ -94,7 +83,7 @@ namespace Datos
         }
     
 
-        public void Eliminar(int id)
+        public void Eliminar_Usuarios(int id)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "delete from Productos where Id=@idpro";

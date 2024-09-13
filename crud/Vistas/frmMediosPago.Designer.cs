@@ -30,6 +30,7 @@
         {
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
+            lblMensajeMetodo = new Label();
             lblMetodo = new Label();
             txtMetodo = new TextBox();
             gbControles = new GroupBox();
@@ -61,6 +62,7 @@
             // 
             // gbCampos
             // 
+            gbCampos.Controls.Add(lblMensajeMetodo);
             gbCampos.Controls.Add(lblMetodo);
             gbCampos.Controls.Add(txtMetodo);
             gbCampos.Location = new Point(6, 12);
@@ -68,6 +70,15 @@
             gbCampos.Size = new Size(333, 145);
             gbCampos.TabIndex = 24;
             gbCampos.TabStop = false;
+            // 
+            // lblMensajeMetodo
+            // 
+            lblMensajeMetodo.AutoSize = true;
+            lblMensajeMetodo.Location = new Point(98, 51);
+            lblMensajeMetodo.Name = "lblMensajeMetodo";
+            lblMensajeMetodo.Size = new Size(38, 15);
+            lblMensajeMetodo.TabIndex = 29;
+            lblMensajeMetodo.Text = "label1";
             // 
             // lblMetodo
             // 
@@ -82,10 +93,10 @@
             // txtMetodo
             // 
             txtMetodo.Font = new Font("Segoe UI", 12F);
-            txtMetodo.Location = new Point(130, 19);
+            txtMetodo.Location = new Point(98, 19);
             txtMetodo.Multiline = true;
             txtMetodo.Name = "txtMetodo";
-            txtMetodo.Size = new Size(195, 29);
+            txtMetodo.Size = new Size(227, 29);
             txtMetodo.TabIndex = 27;
             // 
             // gbControles
@@ -171,6 +182,7 @@
             dtgProductos.Name = "dtgProductos";
             dtgProductos.Size = new Size(294, 309);
             dtgProductos.TabIndex = 17;
+            dtgProductos.CellClick += dtgProductos_CellClick;
             // 
             // clId
             // 
@@ -191,6 +203,7 @@
             Controls.Add(dtgProductos);
             Name = "frmMediosPago";
             Text = "Medios Pago";
+            FormClosed += frmMediosPago_FormClosed;
             Load += frmMediosPago_Load;
             gbFormulario.ResumeLayout(false);
             gbCampos.ResumeLayout(false);
@@ -226,5 +239,6 @@
         private Label lblMetodo;
         private DataGridViewTextBoxColumn clId;
         private DataGridViewTextBoxColumn clMetodo;
+        private Label lblMensajeMetodo;
     }
 }

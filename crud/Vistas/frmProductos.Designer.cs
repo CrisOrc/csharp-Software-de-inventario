@@ -29,15 +29,14 @@
         private void InitializeComponent()
         {
             dtgProductos = new DataGridView();
-            clId = new DataGridViewTextBoxColumn();
-            clNombre = new DataGridViewTextBoxColumn();
-            clDescripcion = new DataGridViewTextBoxColumn();
-            clMarca = new DataGridViewTextBoxColumn();
-            clPrecio = new DataGridViewTextBoxColumn();
-            clStock = new DataGridViewTextBoxColumn();
-            clCategoria = new DataGridViewTextBoxColumn();
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
+            lblMensajeCategoria = new Label();
+            lblMensajeStock = new Label();
+            lblMensajePrecio = new Label();
+            lblMensajeMarca = new Label();
+            lblMensajeDescripcion = new Label();
+            lblMensajeNombre = new Label();
             cbCategoria = new ComboBox();
             lblCategoria = new Label();
             lblStock = new Label();
@@ -66,47 +65,12 @@
             // dtgProductos
             // 
             dtgProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre, clDescripcion, clMarca, clPrecio, clStock, clCategoria });
             dtgProductos.Dock = DockStyle.Right;
             dtgProductos.Location = new Point(344, 0);
             dtgProductos.Name = "dtgProductos";
-            dtgProductos.Size = new Size(778, 486);
+            dtgProductos.Size = new Size(778, 528);
             dtgProductos.TabIndex = 0;
-            // 
-            // clId
-            // 
-            clId.HeaderText = "ID";
-            clId.Name = "clId";
-            // 
-            // clNombre
-            // 
-            clNombre.HeaderText = "Nombre";
-            clNombre.Name = "clNombre";
-            // 
-            // clDescripcion
-            // 
-            clDescripcion.HeaderText = "Descripcion";
-            clDescripcion.Name = "clDescripcion";
-            // 
-            // clMarca
-            // 
-            clMarca.HeaderText = "Marca";
-            clMarca.Name = "clMarca";
-            // 
-            // clPrecio
-            // 
-            clPrecio.HeaderText = "Precio";
-            clPrecio.Name = "clPrecio";
-            // 
-            // clStock
-            // 
-            clStock.HeaderText = "Stock";
-            clStock.Name = "clStock";
-            // 
-            // clCategoria
-            // 
-            clCategoria.HeaderText = "Categoria ID";
-            clCategoria.Name = "clCategoria";
+            dtgProductos.CellClick += dtgProductos_CellClick;
             // 
             // gbFormulario
             // 
@@ -115,12 +79,18 @@
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(345, 486);
+            gbFormulario.Size = new Size(345, 528);
             gbFormulario.TabIndex = 16;
             gbFormulario.TabStop = false;
             // 
             // gbCampos
             // 
+            gbCampos.Controls.Add(lblMensajeCategoria);
+            gbCampos.Controls.Add(lblMensajeStock);
+            gbCampos.Controls.Add(lblMensajePrecio);
+            gbCampos.Controls.Add(lblMensajeMarca);
+            gbCampos.Controls.Add(lblMensajeDescripcion);
+            gbCampos.Controls.Add(lblMensajeNombre);
             gbCampos.Controls.Add(cbCategoria);
             gbCampos.Controls.Add(lblCategoria);
             gbCampos.Controls.Add(lblStock);
@@ -135,24 +105,78 @@
             gbCampos.Controls.Add(txtNombre);
             gbCampos.Location = new Point(6, 13);
             gbCampos.Name = "gbCampos";
-            gbCampos.Size = new Size(333, 355);
+            gbCampos.Size = new Size(333, 374);
             gbCampos.TabIndex = 24;
             gbCampos.TabStop = false;
+            // 
+            // lblMensajeCategoria
+            // 
+            lblMensajeCategoria.AutoSize = true;
+            lblMensajeCategoria.Location = new Point(112, 347);
+            lblMensajeCategoria.Name = "lblMensajeCategoria";
+            lblMensajeCategoria.Size = new Size(38, 15);
+            lblMensajeCategoria.TabIndex = 44;
+            lblMensajeCategoria.Text = "label5";
+            // 
+            // lblMensajeStock
+            // 
+            lblMensajeStock.AutoSize = true;
+            lblMensajeStock.Location = new Point(112, 285);
+            lblMensajeStock.Name = "lblMensajeStock";
+            lblMensajeStock.Size = new Size(38, 15);
+            lblMensajeStock.TabIndex = 43;
+            lblMensajeStock.Text = "label5";
+            // 
+            // lblMensajePrecio
+            // 
+            lblMensajePrecio.AutoSize = true;
+            lblMensajePrecio.Location = new Point(112, 223);
+            lblMensajePrecio.Name = "lblMensajePrecio";
+            lblMensajePrecio.Size = new Size(38, 15);
+            lblMensajePrecio.TabIndex = 42;
+            lblMensajePrecio.Text = "label4";
+            // 
+            // lblMensajeMarca
+            // 
+            lblMensajeMarca.AutoSize = true;
+            lblMensajeMarca.Location = new Point(112, 165);
+            lblMensajeMarca.Name = "lblMensajeMarca";
+            lblMensajeMarca.Size = new Size(38, 15);
+            lblMensajeMarca.TabIndex = 41;
+            lblMensajeMarca.Text = "label3";
+            // 
+            // lblMensajeDescripcion
+            // 
+            lblMensajeDescripcion.AutoSize = true;
+            lblMensajeDescripcion.Location = new Point(112, 107);
+            lblMensajeDescripcion.Name = "lblMensajeDescripcion";
+            lblMensajeDescripcion.Size = new Size(38, 15);
+            lblMensajeDescripcion.TabIndex = 40;
+            lblMensajeDescripcion.Text = "label2";
+            // 
+            // lblMensajeNombre
+            // 
+            lblMensajeNombre.AutoSize = true;
+            lblMensajeNombre.Location = new Point(112, 51);
+            lblMensajeNombre.Name = "lblMensajeNombre";
+            lblMensajeNombre.Size = new Size(38, 15);
+            lblMensajeNombre.TabIndex = 39;
+            lblMensajeNombre.Text = "label1";
             // 
             // cbCategoria
             // 
             cbCategoria.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cbCategoria.FormattingEnabled = true;
-            cbCategoria.Location = new Point(130, 273);
+            cbCategoria.Location = new Point(112, 315);
             cbCategoria.Name = "cbCategoria";
-            cbCategoria.Size = new Size(195, 29);
+            cbCategoria.Size = new Size(213, 29);
             cbCategoria.TabIndex = 38;
             // 
             // lblCategoria
             // 
             lblCategoria.AutoSize = true;
             lblCategoria.Font = new Font("Segoe UI", 12F);
-            lblCategoria.Location = new Point(15, 271);
+            lblCategoria.Location = new Point(15, 313);
             lblCategoria.Name = "lblCategoria";
             lblCategoria.Size = new Size(77, 21);
             lblCategoria.TabIndex = 37;
@@ -162,7 +186,7 @@
             // 
             lblStock.AutoSize = true;
             lblStock.Font = new Font("Segoe UI", 12F);
-            lblStock.Location = new Point(15, 222);
+            lblStock.Location = new Point(15, 253);
             lblStock.Name = "lblStock";
             lblStock.Size = new Size(47, 21);
             lblStock.TabIndex = 36;
@@ -171,17 +195,17 @@
             // txtStock
             // 
             txtStock.Font = new Font("Segoe UI", 12F);
-            txtStock.Location = new Point(130, 222);
+            txtStock.Location = new Point(112, 253);
             txtStock.Multiline = true;
             txtStock.Name = "txtStock";
-            txtStock.Size = new Size(195, 29);
+            txtStock.Size = new Size(213, 29);
             txtStock.TabIndex = 35;
             // 
             // lblPrecio
             // 
             lblPrecio.AutoSize = true;
             lblPrecio.Font = new Font("Segoe UI", 12F);
-            lblPrecio.Location = new Point(15, 168);
+            lblPrecio.Location = new Point(15, 191);
             lblPrecio.Name = "lblPrecio";
             lblPrecio.Size = new Size(53, 21);
             lblPrecio.TabIndex = 34;
@@ -190,17 +214,17 @@
             // txtPrecio
             // 
             txtPrecio.Font = new Font("Segoe UI", 12F);
-            txtPrecio.Location = new Point(130, 168);
+            txtPrecio.Location = new Point(112, 191);
             txtPrecio.Multiline = true;
             txtPrecio.Name = "txtPrecio";
-            txtPrecio.Size = new Size(195, 29);
+            txtPrecio.Size = new Size(213, 29);
             txtPrecio.TabIndex = 33;
             // 
             // lblMarca
             // 
             lblMarca.AutoSize = true;
             lblMarca.Font = new Font("Segoe UI", 12F);
-            lblMarca.Location = new Point(15, 119);
+            lblMarca.Location = new Point(15, 133);
             lblMarca.Name = "lblMarca";
             lblMarca.Size = new Size(53, 21);
             lblMarca.TabIndex = 32;
@@ -209,17 +233,17 @@
             // txtMarca
             // 
             txtMarca.Font = new Font("Segoe UI", 12F);
-            txtMarca.Location = new Point(130, 119);
+            txtMarca.Location = new Point(112, 133);
             txtMarca.Multiline = true;
             txtMarca.Name = "txtMarca";
-            txtMarca.Size = new Size(195, 29);
+            txtMarca.Size = new Size(213, 29);
             txtMarca.TabIndex = 31;
             // 
             // lblDescripcion
             // 
             lblDescripcion.AutoSize = true;
             lblDescripcion.Font = new Font("Segoe UI", 12F);
-            lblDescripcion.Location = new Point(15, 68);
+            lblDescripcion.Location = new Point(15, 75);
             lblDescripcion.Name = "lblDescripcion";
             lblDescripcion.Size = new Size(91, 21);
             lblDescripcion.TabIndex = 30;
@@ -228,10 +252,10 @@
             // txtDescripcion
             // 
             txtDescripcion.Font = new Font("Segoe UI", 12F);
-            txtDescripcion.Location = new Point(130, 68);
+            txtDescripcion.Location = new Point(112, 75);
             txtDescripcion.Multiline = true;
             txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(195, 29);
+            txtDescripcion.Size = new Size(213, 29);
             txtDescripcion.TabIndex = 29;
             // 
             // lblNombre
@@ -247,10 +271,10 @@
             // txtNombre
             // 
             txtNombre.Font = new Font("Segoe UI", 12F);
-            txtNombre.Location = new Point(130, 19);
+            txtNombre.Location = new Point(112, 19);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(195, 29);
+            txtNombre.Size = new Size(213, 29);
             txtNombre.TabIndex = 27;
             // 
             // gbControles
@@ -261,7 +285,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 369);
+            gbControles.Location = new Point(6, 393);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -331,11 +355,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1122, 486);
+            ClientSize = new Size(1122, 528);
             Controls.Add(gbFormulario);
             Controls.Add(dtgProductos);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "frmProductos";
             Text = "Productos";
+            FormClosed += frmProductos_FormClosed;
             Load += frmProductos_Load;
             ((System.ComponentModel.ISupportInitialize)dtgProductos).EndInit();
             gbFormulario.ResumeLayout(false);
@@ -348,13 +374,6 @@
         #endregion
 
         private DataGridView dtgProductos;
-        private DataGridViewTextBoxColumn clId;
-        private DataGridViewTextBoxColumn clNombre;
-        private DataGridViewTextBoxColumn clDescripcion;
-        private DataGridViewTextBoxColumn clMarca;
-        private DataGridViewTextBoxColumn clPrecio;
-        private DataGridViewTextBoxColumn clStock;
-        private DataGridViewTextBoxColumn clCategoria;
         private GroupBox gbFormulario;
         private Button btnIngresar;
         private Button btnInsertar;
@@ -376,5 +395,11 @@
         private TextBox txtDescripcion;
         private Label lblNombre;
         private TextBox txtNombre;
+        private Label lblMensajeStock;
+        private Label lblMensajePrecio;
+        private Label lblMensajeMarca;
+        private Label lblMensajeDescripcion;
+        private Label lblMensajeNombre;
+        private Label lblMensajeCategoria;
     }
 }

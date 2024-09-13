@@ -30,6 +30,7 @@
         {
             groupBox1 = new GroupBox();
             gbCampos = new GroupBox();
+            lblMensajeNombre = new Label();
             lblNombre = new Label();
             txtNombre = new TextBox();
             gbControles = new GroupBox();
@@ -40,8 +41,6 @@
             btnActualizar = new Button();
             btnInsertar = new Button();
             dtgCategoriaProductos = new DataGridView();
-            clId = new DataGridViewTextBoxColumn();
-            clNombre = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
@@ -55,19 +54,29 @@
             groupBox1.Dock = DockStyle.Left;
             groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(351, 495);
+            groupBox1.Size = new Size(351, 351);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
             // gbCampos
             // 
+            gbCampos.Controls.Add(lblMensajeNombre);
             gbCampos.Controls.Add(lblNombre);
             gbCampos.Controls.Add(txtNombre);
             gbCampos.Location = new Point(6, 12);
             gbCampos.Name = "gbCampos";
-            gbCampos.Size = new Size(333, 355);
+            gbCampos.Size = new Size(333, 83);
             gbCampos.TabIndex = 27;
             gbCampos.TabStop = false;
+            // 
+            // lblMensajeNombre
+            // 
+            lblMensajeNombre.AutoSize = true;
+            lblMensajeNombre.Location = new Point(92, 51);
+            lblMensajeNombre.Name = "lblMensajeNombre";
+            lblMensajeNombre.Size = new Size(38, 15);
+            lblMensajeNombre.TabIndex = 29;
+            lblMensajeNombre.Text = "label1";
             // 
             // lblNombre
             // 
@@ -82,7 +91,7 @@
             // txtNombre
             // 
             txtNombre.Font = new Font("Segoe UI", 12F);
-            txtNombre.Location = new Point(130, 19);
+            txtNombre.Location = new Point(92, 19);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(195, 29);
@@ -96,7 +105,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 371);
+            gbControles.Location = new Point(6, 101);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 26;
@@ -165,33 +174,25 @@
             // 
             // dtgCategoriaProductos
             // 
+            dtgCategoriaProductos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dtgCategoriaProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgCategoriaProductos.Columns.AddRange(new DataGridViewColumn[] { clId, clNombre });
             dtgCategoriaProductos.Dock = DockStyle.Right;
-            dtgCategoriaProductos.Location = new Point(362, 0);
+            dtgCategoriaProductos.Location = new Point(357, 0);
             dtgCategoriaProductos.Name = "dtgCategoriaProductos";
-            dtgCategoriaProductos.Size = new Size(273, 495);
+            dtgCategoriaProductos.Size = new Size(478, 351);
             dtgCategoriaProductos.TabIndex = 1;
-            // 
-            // clId
-            // 
-            clId.HeaderText = "ID";
-            clId.Name = "clId";
-            // 
-            // clNombre
-            // 
-            clNombre.HeaderText = "Nombre";
-            clNombre.Name = "clNombre";
+            dtgCategoriaProductos.CellClick += dtgCategoriaProductos_CellClick;
             // 
             // frmCategoriaProductos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(635, 495);
+            ClientSize = new Size(835, 351);
             Controls.Add(dtgCategoriaProductos);
             Controls.Add(groupBox1);
             Name = "frmCategoriaProductos";
             Text = "Categoria Productos";
+            FormClosed += frmCategoriaProductos_FormClosed;
             Load += frmCategoriaProductos_Load;
             groupBox1.ResumeLayout(false);
             gbCampos.ResumeLayout(false);
@@ -215,7 +216,6 @@
         private Button btnActualizar;
         private Button btnInsertar;
         private DataGridView dtgCategoriaProductos;
-        private DataGridViewTextBoxColumn clId;
-        private DataGridViewTextBoxColumn clNombre;
+        private Label lblMensajeNombre;
     }
 }

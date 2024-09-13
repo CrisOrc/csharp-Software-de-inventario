@@ -502,19 +502,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sebas\\.nuget\\packages\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Downloads\\csharp-Software-de-inventario-new\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
-      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\Downloads\\csharp-Software-de-inventario-new\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Downloads\\csharp-Software-de-inventario-new\\csharp-Software-de-inventario\\crud\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -528,8 +533,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj": {
-              "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj"
+            "C:\\Users\\Asus\\Downloads\\csharp-Software-de-inventario-new\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Downloads\\csharp-Software-de-inventario-new\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj"
             }
           }
         }
@@ -573,16 +578,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

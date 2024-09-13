@@ -30,7 +30,11 @@
         {
             gbFormulario = new GroupBox();
             gbCampos = new GroupBox();
-            cbRoll = new ComboBox();
+            lblMensajeRoll = new Label();
+            lblMensajePassword = new Label();
+            lblMensajeEmail = new Label();
+            lblMensajeUsername = new Label();
+            txtRoll = new TextBox();
             lblRoll = new Label();
             lblPassword = new Label();
             txtPassword = new TextBox();
@@ -46,11 +50,6 @@
             btnActualizar = new Button();
             btnInsertar = new Button();
             dtgUsuarios = new DataGridView();
-            clId = new DataGridViewTextBoxColumn();
-            clUsername = new DataGridViewTextBoxColumn();
-            clEmail = new DataGridViewTextBoxColumn();
-            clPassword = new DataGridViewTextBoxColumn();
-            clRol = new DataGridViewTextBoxColumn();
             gbFormulario.SuspendLayout();
             gbCampos.SuspendLayout();
             gbControles.SuspendLayout();
@@ -64,13 +63,17 @@
             gbFormulario.Dock = DockStyle.Left;
             gbFormulario.Location = new Point(0, 0);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(345, 488);
+            gbFormulario.Size = new Size(345, 425);
             gbFormulario.TabIndex = 18;
             gbFormulario.TabStop = false;
             // 
             // gbCampos
             // 
-            gbCampos.Controls.Add(cbRoll);
+            gbCampos.Controls.Add(lblMensajeRoll);
+            gbCampos.Controls.Add(lblMensajePassword);
+            gbCampos.Controls.Add(lblMensajeEmail);
+            gbCampos.Controls.Add(lblMensajeUsername);
+            gbCampos.Controls.Add(txtRoll);
             gbCampos.Controls.Add(lblRoll);
             gbCampos.Controls.Add(lblPassword);
             gbCampos.Controls.Add(txtPassword);
@@ -80,24 +83,60 @@
             gbCampos.Controls.Add(txtUsername);
             gbCampos.Location = new Point(6, 13);
             gbCampos.Name = "gbCampos";
-            gbCampos.Size = new Size(333, 355);
+            gbCampos.Size = new Size(333, 268);
             gbCampos.TabIndex = 24;
             gbCampos.TabStop = false;
             // 
-            // cbRoll
+            // lblMensajeRoll
             // 
-            cbRoll.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbRoll.FormattingEnabled = true;
-            cbRoll.Location = new Point(130, 171);
-            cbRoll.Name = "cbRoll";
-            cbRoll.Size = new Size(195, 29);
-            cbRoll.TabIndex = 38;
+            lblMensajeRoll.AutoSize = true;
+            lblMensajeRoll.Location = new Point(102, 228);
+            lblMensajeRoll.Name = "lblMensajeRoll";
+            lblMensajeRoll.Size = new Size(38, 15);
+            lblMensajeRoll.TabIndex = 42;
+            lblMensajeRoll.Text = "label4";
+            // 
+            // lblMensajePassword
+            // 
+            lblMensajePassword.AutoSize = true;
+            lblMensajePassword.Location = new Point(102, 170);
+            lblMensajePassword.Name = "lblMensajePassword";
+            lblMensajePassword.Size = new Size(38, 15);
+            lblMensajePassword.TabIndex = 41;
+            lblMensajePassword.Text = "label3";
+            // 
+            // lblMensajeEmail
+            // 
+            lblMensajeEmail.AutoSize = true;
+            lblMensajeEmail.Location = new Point(102, 109);
+            lblMensajeEmail.Name = "lblMensajeEmail";
+            lblMensajeEmail.Size = new Size(38, 15);
+            lblMensajeEmail.TabIndex = 40;
+            lblMensajeEmail.Text = "label2";
+            // 
+            // lblMensajeUsername
+            // 
+            lblMensajeUsername.AutoSize = true;
+            lblMensajeUsername.Location = new Point(102, 51);
+            lblMensajeUsername.Name = "lblMensajeUsername";
+            lblMensajeUsername.Size = new Size(38, 15);
+            lblMensajeUsername.TabIndex = 39;
+            lblMensajeUsername.Text = "label1";
+            // 
+            // txtRoll
+            // 
+            txtRoll.Font = new Font("Segoe UI", 12F);
+            txtRoll.Location = new Point(102, 196);
+            txtRoll.Multiline = true;
+            txtRoll.Name = "txtRoll";
+            txtRoll.Size = new Size(223, 29);
+            txtRoll.TabIndex = 38;
             // 
             // lblRoll
             // 
             lblRoll.AutoSize = true;
             lblRoll.Font = new Font("Segoe UI", 12F);
-            lblRoll.Location = new Point(15, 169);
+            lblRoll.Location = new Point(15, 196);
             lblRoll.Name = "lblRoll";
             lblRoll.Size = new Size(37, 21);
             lblRoll.TabIndex = 37;
@@ -107,7 +146,7 @@
             // 
             lblPassword.AutoSize = true;
             lblPassword.Font = new Font("Segoe UI", 12F);
-            lblPassword.Location = new Point(15, 119);
+            lblPassword.Location = new Point(15, 138);
             lblPassword.Name = "lblPassword";
             lblPassword.Size = new Size(76, 21);
             lblPassword.TabIndex = 32;
@@ -116,17 +155,17 @@
             // txtPassword
             // 
             txtPassword.Font = new Font("Segoe UI", 12F);
-            txtPassword.Location = new Point(130, 119);
+            txtPassword.Location = new Point(102, 138);
             txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(195, 29);
+            txtPassword.Size = new Size(223, 29);
             txtPassword.TabIndex = 31;
             // 
             // lblEmail
             // 
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Segoe UI", 12F);
-            lblEmail.Location = new Point(15, 68);
+            lblEmail.Location = new Point(15, 77);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(48, 21);
             lblEmail.TabIndex = 30;
@@ -135,10 +174,10 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 12F);
-            txtEmail.Location = new Point(130, 68);
+            txtEmail.Location = new Point(102, 77);
             txtEmail.Multiline = true;
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(195, 29);
+            txtEmail.Size = new Size(223, 29);
             txtEmail.TabIndex = 29;
             // 
             // lblUsername
@@ -154,10 +193,10 @@
             // txtUsername
             // 
             txtUsername.Font = new Font("Segoe UI", 12F);
-            txtUsername.Location = new Point(130, 19);
+            txtUsername.Location = new Point(102, 19);
             txtUsername.Multiline = true;
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(195, 29);
+            txtUsername.Size = new Size(223, 29);
             txtUsername.TabIndex = 27;
             // 
             // gbControles
@@ -168,7 +207,7 @@
             gbControles.Controls.Add(btnModificar);
             gbControles.Controls.Add(btnActualizar);
             gbControles.Controls.Add(btnInsertar);
-            gbControles.Location = new Point(6, 368);
+            gbControles.Location = new Point(6, 290);
             gbControles.Name = "gbControles";
             gbControles.Size = new Size(333, 125);
             gbControles.TabIndex = 23;
@@ -237,47 +276,23 @@
             // dtgUsuarios
             // 
             dtgUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgUsuarios.Columns.AddRange(new DataGridViewColumn[] { clId, clUsername, clEmail, clPassword, clRol });
             dtgUsuarios.Dock = DockStyle.Right;
             dtgUsuarios.Location = new Point(359, 0);
             dtgUsuarios.Name = "dtgUsuarios";
-            dtgUsuarios.Size = new Size(601, 488);
+            dtgUsuarios.Size = new Size(601, 425);
             dtgUsuarios.TabIndex = 17;
-            // 
-            // clId
-            // 
-            clId.HeaderText = "ID";
-            clId.Name = "clId";
-            // 
-            // clUsername
-            // 
-            clUsername.HeaderText = "Username";
-            clUsername.Name = "clUsername";
-            // 
-            // clEmail
-            // 
-            clEmail.HeaderText = "Email";
-            clEmail.Name = "clEmail";
-            // 
-            // clPassword
-            // 
-            clPassword.HeaderText = "Password";
-            clPassword.Name = "clPassword";
-            // 
-            // clRol
-            // 
-            clRol.HeaderText = "Rol";
-            clRol.Name = "clRol";
+            dtgUsuarios.CellClick += dtgUsuarios_CellClick;
             // 
             // frmUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(960, 488);
+            ClientSize = new Size(960, 425);
             Controls.Add(gbFormulario);
             Controls.Add(dtgUsuarios);
             Name = "frmUsuarios";
             Text = "Usuarios";
+            FormClosed += frmUsuarios_FormClosed;
             Load += frmUsuarios_Load;
             gbFormulario.ResumeLayout(false);
             gbCampos.ResumeLayout(false);
@@ -290,7 +305,6 @@
         #endregion
         private GroupBox gbFormulario;
         private GroupBox gbCampos;
-        private ComboBox cbRoll;
         private Label lblRoll;
         private Label lblPassword;
         private TextBox txtPassword;
@@ -306,10 +320,10 @@
         private Button btnActualizar;
         private Button btnInsertar;
         private DataGridView dtgUsuarios;
-        private DataGridViewTextBoxColumn clId;
-        private DataGridViewTextBoxColumn clUsername;
-        private DataGridViewTextBoxColumn clEmail;
-        private DataGridViewTextBoxColumn clPassword;
-        private DataGridViewTextBoxColumn clRol;
+        private TextBox txtRoll;
+        private Label lblMensajeUsername;
+        private Label lblMensajeRoll;
+        private Label lblMensajePassword;
+        private Label lblMensajeEmail;
     }
 }

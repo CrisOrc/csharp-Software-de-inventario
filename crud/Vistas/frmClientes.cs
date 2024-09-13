@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace Presentacion.Vistas
     public partial class frmClientes : Form
     {
         private static frmClientes instancia = null;
+        private string idSeleccionado = null;
 
         public static frmClientes VentanaUnica()
         {
@@ -24,6 +26,43 @@ namespace Presentacion.Vistas
             return instancia;
         }
 
+        private bool Validar()
+        {
+            bool nombre = Validacion.Validacion.CampoVacio(txtNombre.Text, lblMensajeNombre);
+            bool email = Validacion.Validacion.Email(txtEmail.Text, lblMensajeEmail);
+            bool telefono = Validacion.Validacion.Entero(txtTelefono.Text, 10, lblMensajeTelefono);
+            return nombre && email && telefono;
+        }
+
+        private void ReiniciarForm()
+        {
+            gbCampos.Enabled = false;
+            btnActualizar.Enabled = false;
+            btnActualizar.Visible = false;
+            btnModificar.Enabled = false;
+            btnModificar.Visible = true;
+            btnEliminar.Enabled = false;
+            btnCancelar.Enabled = false;
+            btnIngresar.Enabled = true;
+            btnIngresar.Visible = true;
+            btnInsertar.Visible = false;
+            this.idSeleccionado = null;
+            ActualizarDTG();
+            txtNombre.Text = "";
+            lblMensajeNombre.Text = "";
+            txtEmail.Text = "";
+            lblMensajeEmail.Text = "";
+            txtTelefono.Text = "";
+            lblMensajeTelefono.Text = "";
+        }
+
+        private void ActualizarDTG()
+        {
+            conCliente conCliente = new conCliente();
+            DataTable data = conCliente.MostrarClientes();
+            dtgClientes.DataSource = data;
+        }
+
         public frmClientes()
         {
             InitializeComponent();
@@ -32,20 +71,10 @@ namespace Presentacion.Vistas
         private void frmClientes_Load(object sender, EventArgs e)
         {
             ReiniciarForm();
-        }
-
-        private void ReiniciarForm()
-        {
-            gbCampos.Enabled = false;
-            btnActualizar.Enabled = false;
-            btnModificar.Enabled = false;
-            btnEliminar.Enabled = false;
-            btnCancelar.Enabled = false;
-            btnIngresar.Visible = true;
-            btnInsertar.Visible = false;
-            txtNombre.Text = "";
-            txtEmail.Text = "";
-            txtTelefono.Text = "";
+            this.BackColor = Color.FromArgb(255, 255, 255);
+            lblMensajeNombre.ForeColor = Color.FromArgb(229, 57, 53);
+            lblMensajeEmail.ForeColor = Color.FromArgb(229, 57, 53);
+            lblMensajeTelefono.ForeColor = Color.FromArgb(229, 57, 53);
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -64,7 +93,10 @@ namespace Presentacion.Vistas
 
         private void btnInsertar_Click(object sender, EventArgs e)
         {
-            //TODO: validaciones frontend y operaciones de insercion de datos
+            //TODO: arreglar
+            if (Validar() is false) return;
+            conCliente conClientes = new conCliente();
+            conClientes.InsertarClientes(txtNombre.Text, txtEmail.Text, txtTelefono.Text);
             ReiniciarForm();
         }
 
@@ -78,8 +110,30 @@ namespace Presentacion.Vistas
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            //TODO: validaciones frontend y operaciones de actualización de datos
+            if (Validar() is false)return; 
+            conCliente conCliente = new conCliente();
+            conCliente.EditarClientes(txtNombre.Text, txtEmail.Text, txtTelefono.Text, this.idSeleccionado);
             ReiniciarForm();
+        }
+
+        private void dtgClientes_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            gbCampos.Enabled = false;
+            txtNombre.Text = dtgClientes.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txtEmail.Text = dtgClientes.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txtTelefono.Text = dtgClientes.Rows[e.RowIndex].Cells[3].Value.ToString();
+            btnModificar.Enabled = true;
+            btnEliminar.Enabled = true;
+            btnActualizar.Enabled = true;
+            btnIngresar.Enabled = false;
+
+            btnCancelar.Enabled = true;
+            this.idSeleccionado = dtgClientes.Rows[e.RowIndex].Cells[0].Value.ToString();
+        }
+
+        private void frmClientes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmClientes.instancia = null;
         }
     }
 }

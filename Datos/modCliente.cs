@@ -22,7 +22,7 @@ namespace Datos
         {
 
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "select * from Cliente";
+            comando.CommandText = "select * from Clientes";
             buffer = comando.ExecuteReader();
             tabla.Load(buffer);
             conexion.CerrarConexion();
@@ -32,7 +32,7 @@ namespace Datos
         public void Insertar_Cliente(string nombre, string email, int telefono, int id)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "insert into Cliente values (@nombre,@i,@telefono, @email)";
+            comando.CommandText = "insert into Cliente values (@nombre,@telefono, @email, @id)";
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.Parameters.AddWithValue("@id", id);
             comando.Parameters.AddWithValue("@email", email);

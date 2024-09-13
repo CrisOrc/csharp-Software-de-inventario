@@ -11,39 +11,41 @@ namespace Negocios
 {
     public class conProducto
     {
+        private Conexion conexion = new Conexion();
         private modProductos Productos = new modProductos();
         SqlCommand comando = new SqlCommand();
-
         public DataTable MostrarProd()
         {
             DataTable tabla = new DataTable();
             tabla = Productos.Mostrar();
             return tabla;
         }
-        public void Insertar(string nombre, string desc, string marca, string precio, string stock)
+        public void Insertar(string nombre, string desc, string marca, string precio, string stock, int categoria)
         {
-            Productos.Insertar(nombre, desc, marca, Convert.ToDouble(precio), Convert.ToInt32(stock));
+            //Productos.Insertar(nombre, desc, marca, Convert.ToDouble(precio), Convert.ToInt32(stock));
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "insert into Productos values (@nombre,@descrip,@marca,@precio,@stock)";
+            comando.CommandText = "insert into Productos values (@nombre,@descrip,@marca,@precio,@stock,@categoria)";
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.Parameters.AddWithValue("@descrip", desc);
             comando.Parameters.AddWithValue("@Marca", marca);
             comando.Parameters.AddWithValue("@precio", precio);
-            comando.Parameters.AddWithValue("@stock", precio);
+            comando.Parameters.AddWithValue("@stock", stock);
+            comando.Parameters.AddWithValue("@categoria", categoria);
             comando.ExecuteNonQuery();
             comando.Parameters.Clear(); 
         }
-        public void Editar(string nombre, string desc, string marca, string precio, string stock, string id)
+        public void Editar(string nombre, string desc, string marca, string precio, string stock, int categoria, string id)
         {
-            Productos.Editar(nombre, desc, marca, Convert.ToDouble(precio), Convert.ToInt32(stock), Convert.ToInt32(id));
+            //Productos.Editar(nombre, desc, marca, Convert.ToDouble(precio), Convert.ToInt32(stock), Convert.ToInt32(id));
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "update Productos set Nombre=@nombre, Descripcion=@descrip, Marca=@marca, Precio=@precio, Stock=@stock where Id=@id";
+            comando.CommandText = "update Productos set Nombre=@nombre, Descripcion=@descrip, Marca=@marca, Precio=@precio, Stock=@stock, CategoriaId=@categoria where Id=@id";
             comando.CommandType = CommandType.Text;
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.Parameters.AddWithValue("@descrip", desc);
             comando.Parameters.AddWithValue("@Marca", marca);
             comando.Parameters.AddWithValue("@precio", precio);
-            comando.Parameters.AddWithValue("@stock", precio);
+            comando.Parameters.AddWithValue("@stock", stock);
+            comando.Parameters.AddWithValue("@categoria", categoria);
             comando.Parameters.AddWithValue("@id", id);
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
