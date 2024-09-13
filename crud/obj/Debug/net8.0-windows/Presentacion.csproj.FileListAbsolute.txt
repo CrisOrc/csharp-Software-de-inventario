@@ -84,78 +84,6 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\ob
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
 <<<<<<< HEAD
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Presentacion.exe
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Presentacion.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Presentacion.pdb
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\System.ClientModel.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Datos.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Negocios.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Negocios.pdb
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Datos.pdb
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\bin\Debug\net8.0-windows\Datos.dll.config
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.csproj.AssemblyReference.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\crud.frmMain.resources
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.csproj.GenerateResource.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfoInputs.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.AssemblyInfo.cs
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.sourcelink.json
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presenta.BC77CD05.Up2Date
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\refint\Presentacion.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.pdb
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\crud\obj\Debug\net8.0-windows\ref\Presentacion.dll
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.exe
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.deps.json
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\bin\Debug\net8.0-windows\Presentacion.runtimeconfig.json
@@ -227,12 +155,3 @@ D:\sebasl\university\2024-2\HdeP3\pruebas\copia-app-inventario\csharp-Software-d
 D:\sebasl\university\2024-2\HdeP3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Properties.Resources.resources
 =======
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Properties.Resources.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmCategoriaProductos.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmClientes.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmMediosPago.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmProductos.resources
-D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\crud\obj\Debug\net8.0-windows\Presentacion.Vistas.frmUsuarios.resources
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
->>>>>>> dev

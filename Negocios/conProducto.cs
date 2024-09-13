@@ -11,13 +11,8 @@ namespace Negocios
 {
     public class conProducto
     {
-        private Conexion conexion = new Conexion();
         private modProductos Productos = new modProductos();
         SqlCommand comando = new SqlCommand();
-<<<<<<< HEAD
-        private Conexion conexion = new Conexion();
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 
         public DataTable MostrarProd()
         {

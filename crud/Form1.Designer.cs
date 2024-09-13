@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
 <<<<<<< HEAD
-<<<<<<< HEAD
             msMenu = new MenuStrip();
             msiInicio = new ToolStripMenuItem();
             msiProductos = new ToolStripMenuItem();
@@ -40,8 +39,6 @@
             mediosDePagoToolStripMenuItem = new ToolStripMenuItem();
             msMenu.SuspendLayout();
 =======
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             dataGridView1 = new DataGridView();
             button2 = new Button();
             button3 = new Button();
@@ -68,15 +65,11 @@
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-<<<<<<< HEAD
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
-=======
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             SuspendLayout();
             // 
             // dataGridView1
             // 
-<<<<<<< HEAD
 <<<<<<< HEAD
             msMenu.Items.AddRange(new ToolStripItem[] { msiInicio, msiProductos, msiUsuarios, msiClientes, mediosDePagoToolStripMenuItem });
             msMenu.Location = new Point(0, 0);
@@ -85,15 +78,12 @@
             msMenu.TabIndex = 1;
             msMenu.Text = "menuStrip1";
 =======
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(238, 0);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(636, 341);
             dataGridView1.TabIndex = 10;
-<<<<<<< HEAD
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             // 
             // button2
@@ -103,11 +93,6 @@
             msiInicio.Size = new Size(48, 20);
             msiInicio.Text = "Inicio";
 =======
-=======
-            // 
-            // button2
-            // 
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             button2.Location = new Point(238, 356);
             button2.Name = "button2";
@@ -116,9 +101,6 @@
             button2.Text = "Editar";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
-<<<<<<< HEAD
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
-=======
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             // 
             // button3
@@ -200,125 +182,13 @@
             label7.Text = "ID";
             // 
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             // numericUpDown1
             // 
             numericUpDown1.Location = new Point(17, 49);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(75, 23);
             numericUpDown1.TabIndex = 27;
-<<<<<<< HEAD
-=======
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(17, 94);
-            label6.Name = "label6";
-            label6.Size = new Size(59, 15);
-            label6.TabIndex = 26;
-            label6.Text = "Resultado";
-            // 
-            // txtResult
-            // 
-            txtResult.Location = new Point(17, 112);
-            txtResult.Name = "txtResult";
-            txtResult.Size = new Size(186, 23);
-            txtResult.TabIndex = 25;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(12, 297);
-            button1.Name = "button1";
-            button1.Size = new Size(194, 33);
-            button1.TabIndex = 22;
-            button1.Text = "Guardar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(12, 241);
-            label5.Name = "label5";
-            label5.Size = new Size(39, 15);
-            label5.TabIndex = 21;
-            label5.Text = "Stock:";
-            // 
-            // txtStock
-            // 
-            txtStock.Location = new Point(12, 259);
-            txtStock.Name = "txtStock";
-            txtStock.Size = new Size(194, 23);
-            txtStock.TabIndex = 20;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(12, 187);
-            label4.Name = "label4";
-            label4.Size = new Size(43, 15);
-            label4.TabIndex = 19;
-            label4.Text = "Precio:";
-            // 
-            // txtPrecio
-            // 
-            txtPrecio.Location = new Point(12, 205);
-            txtPrecio.Name = "txtPrecio";
-            txtPrecio.Size = new Size(194, 23);
-            txtPrecio.TabIndex = 18;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(12, 131);
-            label3.Name = "label3";
-            label3.Size = new Size(43, 15);
-            label3.TabIndex = 17;
-            label3.Text = "Marca:";
-            // 
-            // txtMarca
-            // 
-            txtMarca.Location = new Point(12, 149);
-            txtMarca.Name = "txtMarca";
-            txtMarca.Size = new Size(194, 23);
-            txtMarca.TabIndex = 16;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(12, 78);
-            label2.Name = "label2";
-            label2.Size = new Size(72, 15);
-            label2.TabIndex = 15;
-            label2.Text = "Descripción:";
-            // 
-            // txtDesc
-            // 
-            txtDesc.Location = new Point(12, 96);
-            txtDesc.Name = "txtDesc";
-            txtDesc.Size = new Size(194, 23);
-            txtDesc.TabIndex = 14;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 28);
-            label1.Name = "label1";
-            label1.Size = new Size(54, 15);
-            label1.TabIndex = 13;
-            label1.Text = "Nombre:";
-            // 
-            // txtNombre
-            // 
-            txtNombre.Location = new Point(12, 46);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(194, 23);
-            txtNombre.TabIndex = 12;
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             // 
             // label6
             // 
@@ -432,19 +302,15 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
 <<<<<<< HEAD
-<<<<<<< HEAD
             ClientSize = new Size(1192, 661);
             Controls.Add(msMenu);
             IsMdiContainer = true;
 =======
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             ClientSize = new Size(874, 500);
             Controls.Add(groupBox1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(dataGridView1);
-<<<<<<< HEAD
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             Name = "frmMain";
             Text = "Inventario";
@@ -452,10 +318,6 @@
             msMenu.ResumeLayout(false);
             msMenu.PerformLayout();
 =======
-=======
-            Name = "frmMain";
-            Text = "Inventario";
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
@@ -463,15 +325,11 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-<<<<<<< HEAD
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
-=======
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
             ResumeLayout(false);
         }
 
         #endregion
-<<<<<<< HEAD
 <<<<<<< HEAD
 
         private MenuStrip msMenu;
@@ -483,8 +341,6 @@
         private ToolStripMenuItem msiClientes;
         private ToolStripMenuItem mediosDePagoToolStripMenuItem;
 =======
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
         private DataGridView dataGridView1;
         private Button button2;
         private Button button3;
@@ -507,9 +363,6 @@
         private NumericUpDown numericUpDown1;
         private Label label6;
         private TextBox txtResult;
-<<<<<<< HEAD
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
-=======
 >>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
     }
 }

@@ -11,12 +11,8 @@ namespace Negocios
 {
     public class conCategoria
     {
-        private Conexion conexion = new Conexion();
-<<<<<<< HEAD
-=======
         private modCategoria Productos = new modCategoria();
        
->>>>>>> dev
         private modCategoria CATEGORIAS = new modCategoria();
         SqlCommand comando = new SqlCommand();
 
@@ -28,7 +24,7 @@ namespace Negocios
         }
         public void InsertarCategoria(string nombre, int id)
         {
-            CATEGORIAS.Insertar_Categoria(nombre, id);
+            CATEGORIAS.Insertar_Categoria();
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Categorias values (@nombre)";
             comando.Parameters.AddWithValue("@nombre", nombre);
@@ -59,13 +55,8 @@ namespace Negocios
             conexion.CerrarConexion();
         }
 
-<<<<<<< HEAD
-        
-=======
         }
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
 
 
     }
-
-
+}

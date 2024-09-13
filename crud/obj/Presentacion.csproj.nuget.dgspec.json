@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\crud\\Presentacion.csproj": {}
+    "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\crud\\Presentacion.csproj": {
+    "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\crud\\Presentacion.csproj",
+        "projectUniqueName": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
         "projectName": "Presentacion",
-        "projectPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\crud\\Presentacion.csproj",
-        "packagesPath": "C:\\Users\\okmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\crud\\obj\\",
+        "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\Presentacion.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\okmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\Negocios.csproj": {
-                "projectPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\Negocios.csproj"
+              "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj": {
+                "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj"
               }
             }
           }
@@ -48,10 +49,6 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "BCrypt.Net-Next": {
-              "target": "Package",
-              "version": "[4.0.3, )"
-            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -76,15 +73,15 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\Datos.csproj": {
+    "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Datos\\Datos.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\Datos.csproj",
+        "projectUniqueName": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\Datos.csproj",
+        "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Datos\\Datos.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -95,16 +92,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\Negocios.csproj": {
+    "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\Negocios.csproj",
+        "projectUniqueName": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj",
         "projectName": "Negocios",
-        "projectPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Negocios\\Negocios.csproj",
+        "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Negocios\\Negocios.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\Datos.csproj": {
-                "projectPath": "C:\\Users\\okmar\\Downloads\\PROYECTOS C#\\HDP3\\Datos\\Datos.csproj"
+              "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Datos\\Datos.csproj": {
+                "projectPath": "D:\\sebasl\\university\\2024-2\\HdeP3\\csharp-Software-de-inventario\\Datos\\Datos.csproj"
               }
             }
           }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    public class modUsuarios
+    public class modUsuariosroductos
     {
         private Conexion conexion = new Conexion();
 
@@ -16,8 +16,19 @@ namespace Datos
 
         DataTable tabla = new DataTable();
         SqlCommand comando = new SqlCommand();
+        public DataTable Mostrar_SP()
+        {
 
-        public DataTable Mostrar_Usuarios()
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "MostrarUsuarios";
+            comando.CommandType = CommandType.StoredProcedure;
+            buffer = comando.ExecuteReader();
+            tabla.Load(buffer);
+            conexion.CerrarConexion();
+            return tabla;
+
+        }
+        public DataTable Mostrar()
         {
 
             comando.Connection = conexion.AbrirConexion();
@@ -55,7 +66,7 @@ namespace Datos
             return (nombre);
         }
 
-        public void Insertar_Usuarios(string Username, string Email, string PasswordHash, double Rol)
+        public void Insertar(string Username, string Email, string PasswordHash, double Rol)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Productos values (@username,@email,@passwordhash,@rol)";
@@ -68,7 +79,7 @@ namespace Datos
             conexion.CerrarConexion();
         }
 
-        public void Editar_Usuarios(string Username, string Email, string PasswordHash, int Rol, int id)
+        public void Editar(string Username, string Email, string PasswordHash, double Rol, int id)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "insert into Productos values (@username,@email,@passwordhash,@rol)";
@@ -83,7 +94,7 @@ namespace Datos
         }
     
 
-        public void Eliminar_Usuarios(int id)
+        public void Eliminar(int id)
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "delete from Productos where Id=@idpro";
@@ -93,13 +104,5 @@ namespace Datos
             comando.Parameters.Clear();
             conexion.CerrarConexion();
         }
-<<<<<<< HEAD
-
-        public DataTable Mostrar_Usuarios()
-        {
-            throw new NotImplementedException();
-        }
-=======
->>>>>>> 2914e63593496e9aad8764326fb9ed1aa70ff47d
     }
 }

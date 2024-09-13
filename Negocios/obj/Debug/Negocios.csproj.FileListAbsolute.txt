@@ -31,7 +31,3 @@ D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocio
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.csproj.Up2Date
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.dll
 D:\002_PASCUAL\005_SEMESTRE\Herramientas 3\csharp-Software-de-inventario\Negocios\obj\Debug\Negocios.pdb
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.dll
-C:\Users\okmar\Downloads\PROYECTOS C#\HDP3\Negocios\obj\Debug\Negocios.pdb
